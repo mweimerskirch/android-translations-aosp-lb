@@ -19,8 +19,8 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="keyguard_password_enter_pin_code">PIN-Code antippen</string>
-  <string name="keyguard_password_enter_puk_code">SIM-PUK an nei PIN antippen</string>
+  <string name="keyguard_password_enter_pin_code">PIN-Code aginn</string>
+  <string name="keyguard_password_enter_puk_code">SIM-PUK an nei PIN aginn</string>
   <string name="keyguard_password_enter_puk_prompt">SIM-PUK-Code</string>
   <string name="keyguard_password_enter_pin_prompt">Neie SIM-PIN-Code</string>
   <string name="keyguard_password_entry_touch_hint"><font size="17">Dréck fir d\'Passwuert anzeginn</font></string>
@@ -162,6 +162,10 @@ Kontaktéier däin Netzbedreiwer fir eng aner SIM-Kaart ze kréien.</string>
   <string name="kg_text_message_separator" product="default">" \u2014 "</string>
   <string name="kg_reordering_delete_drop_target_text">Ewechhuelen</string>
   <string name="kg_password_wrong_pin_code_pukked">Inkorrekte SIM-PIN-Code. Du muss elo däin Netzbedreiwer kontaktéiere fir däin Apparat z\'entspären.</string>
+  <plurals name="kg_password_wrong_pin_code">
+    <item quantity="one">Inkorrekte SIM-PIN-Code, du hues nach <xliff:g id="number">%d</xliff:g> Versuch iwwreg ier s de däin Netzbedreiwer kontaktéiere muss fir däin Apparat z\'entspären.</item>
+    <item quantity="other">Inkorrekte SIM-PIN-Code, du hues nach <xliff:g id="number">%d</xliff:g> Versich iwwreg.</item>
+  </plurals>
   <string name="kg_password_wrong_puk_code_dead">D\'SIM ass onbrauchbar. Kontaktéier däin Netzbedreiwer.</string>
   <plurals name="kg_password_wrong_puk_code">
     <item quantity="one">Inkorrekte SIM-PUK-Code, du hues nach <xliff:g id="number">%d</xliff:g> Versuch iwwreg ier deng SIM permanent onbrauchbar gëtt.</item>
