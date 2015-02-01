@@ -89,15 +89,11 @@
   <string name="nameLabelsGroup">Numm</string>
   <string name="nicknameLabelsGroup">Spëtznumm</string>
   <string name="full_name">Numm</string>
-  <string name="name_given">Virnumm</string>
-  <string name="name_family">Familljennumm</string>
   <string name="name_prefix">Nummprefix</string>
   <string name="name_middle">Zweete Virnumm</string>
   <string name="name_suffix">Nummsuffix</string>
   <string name="name_phonetic">Phoneteschen Numm</string>
-  <string name="name_phonetic_given">Phonetesche Virnumm</string>
   <string name="name_phonetic_middle">Phoneteschen zweete VIrnumm</string>
-  <string name="name_phonetic_family">Phonetesche Familljennumm</string>
   <string name="phoneLabelsGroup">Telefon</string>
   <string name="emailLabelsGroup">E-Mail</string>
   <string name="postalLabelsGroup">Adress</string>
@@ -110,7 +106,6 @@
   <string name="ghostData_company">Firma</string>
   <string name="ghostData_title">Titel</string>
   <string name="label_notes">Notten</string>
-  <string name="label_sip_address">Interneturuff</string>
   <string name="websiteLabelsGroup">Websäit</string>
   <string name="groupsLabel">Gruppen</string>
   <string name="email_home">E-Mail un déi privat Adress schécken</string>
@@ -236,8 +231,6 @@
   <string name="menu_clear_frequents">Dacks kontaktéiert eidel maachen</string>
   <string name="menu_accounts">Konten</string>
   <string name="menu_import_export">Import/Export</string>
-  <string name="description_send_message">Dem <xliff:g id="name">%1$s</xliff:g> e Message schécken</string>
-  <string name="description_dial_phone_number">Dem <xliff:g id="name">%1$s</xliff:g> uruffen</string>
   <string name="contact_status_update_attribution">iwwer <xliff:g id="source" example="Google Talk">%1$s</xliff:g></string>
   <string name="contact_status_update_attribution_with_date"><xliff:g id="date" example="3 hours ago">%1$s</xliff:g> iwwer <xliff:g id="source" example="Google Talk">%2$s</xliff:g></string>
 </resources>

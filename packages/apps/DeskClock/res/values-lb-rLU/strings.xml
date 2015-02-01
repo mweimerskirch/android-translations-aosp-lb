@@ -18,7 +18,6 @@
   <string name="app_label">Auer</string>
   <string name="alarm_list_title">Weckeren</string>
   <string name="add_alarm">Wecker dobäisetzen</string>
-  <string name="alarm_timeline_title_text">NÄCHST WECKEREN</string>
   <string name="menu_desk_clock">Dësch-Auer</string>
   <string name="menu_edit_alarm">Wecker änneren</string>
   <string name="delete_alarm">Wecker läschen</string>
@@ -35,10 +34,20 @@
   <string name="alert">Weckerschelltoun</string>
   <string name="ringtone">Schelltoun</string>
   <string name="time">Zäit</string>
+  <string name="alarm_tomorrow">Muer</string>
+  <string name="alarm_today">Haut</string>
+  <string name="alarm_alert_wake_up">Gëff waakreg\u0021</string>
+  <string name="alarm_alert_off_action_text">Aus</string>
   <string name="alarm_alert_dismiss_text">Verwerfen</string>
   <string name="alarm_alert_dismiss_now_text">Elo verwerfen</string>
   <string name="alarm_missed_title">Verpasste Wecker</string>
   <string name="alarm_missed_text"><xliff:g id="alarm_time">%s</xliff:g> - <xliff:g id="alarm_label">%s</xliff:g></string>
+  <string name="alarm_alert_snoozed_text">Genäipt</string>
+  <plurals name="alarm_alert_snooze_duration">
+    <item quantity="one">1 Min.</item>
+    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> Min.</item>
+  </plurals>
+  <string name="alarm_alert_off_text">Wecker aus</string>
   <string name="alarm_alert_snooze_text">Näipen</string>
   <plurals name="alarm_alert_snooze_set">
     <item quantity="one">Näipe fir 1 Minutt.</item>
@@ -132,7 +141,7 @@
   <string name="menu_timer">Sandauer</string>
   <string name="menu_clock">Auer</string>
   <string name="menu_stopwatch">Stoppauer</string>
-  <string name="button_alarms">Weckeren</string>
+  <string name="button_alarms">Wecker dobäisetzen</string>
   <string name="button_cities">Stied</string>
   <string name="button_menu">Méi Optiounen</string>
   <string name="menu_item_settings">Astellungen</string>
@@ -180,6 +189,7 @@
   <string name="timer_cancel">Ofbriechen</string>
   <string name="timer_times_up">D\'Zäit ass eriwwer</string>
   <string name="timer_notification_label">Sandauer</string>
+  <string name="timers_max_count_reached">Maximal 4 Sandaueren</string>
   <string-array name="sw_share_strings" translatable="true">
     <item>Du bass verdäiwelt séier.</item>
     <item>Genéiss d\'Friichte vun denger Aarbecht.</item>
@@ -198,7 +208,7 @@
   </plurals>
   <string name="home_label">Doheem</string>
   <string name="cities_activity_title">Stied</string>
-  <string name="clock_settings">AUER</string>
+  <string name="clock_settings">Auer</string>
   <string name="clock_style">Stil</string>
   <string-array name="clock_style_entries">
     <item>Analog</item>
@@ -301,14 +311,11 @@
     <item>"Tonga"</item>
     <item>"Jakarta"</item>
   </string-array>
-  <string name="alarm_settings">WECKEREN</string>
-  <string name="see_all">All ukucken&#8230;</string>
+  <string name="alarm_settings">Weckeren</string>
   <string name="stopwatch_service_desc">Notifikatioun iwwer de Stoppauer-Service.</string>
   <string name="swn_stopped">Gestoppt</string>
   <string name="description_direction_right">No riets wësche fir ze verwerfen</string>
   <string name="description_direction_left">No lénks wësche fir ze näipen</string>
-  <string name="description_direction_up">Erop wësche fir ze verwerfen</string>
-  <string name="description_direction_down">Erof wësche fir ze näipen</string>
   <string name="timer_stopped">Sandauer gestoppt</string>
   <string name="timers_stopped"><xliff:g id="number" example="7">%d</xliff:g> Sandauere gestoppt</string>
   <string name="all_timers_stopped_notif">Dréck fir deng Sandaueren ze gesinn</string>
@@ -334,5 +341,6 @@
   <string name="city_delete_confirmation">Dës Stad läschen?</string>
   <string name="digital_gadget">Digitalauer</string>
   <string name="no_alarms">Keng Weckeren</string>
+  <string name="no_alarms_set">Keng Weckeren definéiert</string>
   <string name="no_upcoming_alarms">KENG WECKERE GEPLANGT</string>
 </resources>

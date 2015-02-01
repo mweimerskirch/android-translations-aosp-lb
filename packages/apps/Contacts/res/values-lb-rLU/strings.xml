@@ -15,7 +15,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="people">Leit</string>
+  <string name="applicationLabel">Kontakter</string>
+  <string name="launcherActivityLabel">Kontakter</string>
   <string name="contactsList">Kontakter</string>
   <string name="shortcutContact">Kontakt</string>
   <string name="shortcutDialContact">Direkten Telefon</string>
@@ -24,11 +25,11 @@
   <string name="callShortcutActivityTitle">Eng Nummer auswiele fir unzeruffen</string>
   <string name="messageShortcutActivityTitle">Nummer auswiele fir e Message ze schécken</string>
   <string name="contactPickerActivityTitle">E Kontakt auswielen</string>
+  <string name="header_entry_contact_list_adapter_header_title">Neie Kontakt erstellen</string>
   <string name="starredList">Markéiert</string>
   <string name="frequentList">Frequent</string>
   <string name="strequentList">Favoritten</string>
   <string name="viewContactTitle">Kontaktdetailer</string>
-  <string name="viewContactDesription">Kontakt ukucken</string>
   <string name="editContactDescription">Kontakt änneren</string>
   <string name="insertContactDescription">Kontakt erstellen</string>
   <string name="editGroupDescription">Grupp änneren</string>
@@ -39,6 +40,8 @@
   <string name="menu_viewContact">Kontakt uweisen</string>
   <string name="menu_addStar">Bei d\'Favoritte setzen</string>
   <string name="menu_removeStar">Aus de Favoritte läschen</string>
+  <string name="description_action_menu_remove_star">Aus de Favoritte geläscht</string>
+  <string name="description_action_menu_add_star">Bei d\'Favoritten dobäigesat</string>
   <string name="menu_editContact">Änneren</string>
   <string name="menu_deleteContact">Läschen</string>
   <string name="menu_create_contact_shortcut">Um Heemschierm ofleeën</string>
@@ -64,7 +67,7 @@
   <string name="readOnlyContactDeleteConfirmation">Dëse Kontakt huet Informatioune vu verschiddene Konten. Informatiounen aus schreifgeschützte Konte ginn an denge Kontaktlëschte verstoppt, awer net geläscht.</string>
   <string name="multipleContactDeleteConfirmation">Wann s du dëse Kontakt läschs, ginn Informatiounen aus méi Konte geläscht.</string>
   <string name="deleteConfirmation">Dëse Kontakt gëtt geläscht.</string>
-  <string name="menu_discard">Verwerfen</string>
+  <string name="menu_discard">Ännerunge verwerfen</string>
   <string name="invalidContactMessage">De Kontakt existéiert net.</string>
   <string name="createContactShortcutSuccessful">Kontakt-Widget op den Heemschierm dobäisetzen.</string>
   <string name="pickerNewContactHeader">Neie Kontakt erstellen</string>
@@ -94,10 +97,6 @@
     <item quantity="other"><xliff:g id="count">%d</xliff:g> Kontakter mat Telefonsnummer</item>
   </plurals>
   <string name="listTotalPhoneContactsZero">Keng Kontakter mat Telefonsnummer</string>
-  <plurals name="listTotalAllContacts">
-    <item quantity="one">1 Kontakt</item>
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> Kontakter</item>
-  </plurals>
   <plurals name="listFoundAllContacts">
     <item quantity="one">1 fonnt</item>
     <item quantity="other"><xliff:g id="count">%d</xliff:g> fonnt</item>
@@ -107,8 +106,8 @@
     <item quantity="one">1 fonnt</item>
     <item quantity="other"><xliff:g id="count">%d</xliff:g> fonnt</item>
   </plurals>
-  <string name="contactsAllLabel">All d\'Kontakter</string>
-  <string name="contactsGroupsLabel">Gruppen</string>
+  <string name="all_contacts_tab_label">All d\'Kontakter</string>
+  <string name="favorites_tab_label">Favoritten</string>
   <string name="callBack">Zréckruffen</string>
   <string name="callAgain">Erëm uruffen</string>
   <string name="returnCall">Zréckruffen</string>
@@ -118,8 +117,12 @@
   <string name="exporting_contact_list_progress"><xliff:g id="current_number">%s</xliff:g> vu(n) <xliff:g id="total_number">%s</xliff:g> Kontakter</string>
   <string name="search_settings_description">Nimm vun denge Kontakter</string>
   <string name="quickcontact_missing_app">Fir dës Aktioun gouf keng App fonnt.</string>
+  <string name="quickcontact_transparent_view_description">Drécke fir op de virege Schierm zréckzegoen</string>
+  <string name="quickcontact_add_phone_number">Telefonsnummer dobäisetzen</string>
+  <string name="quickcontact_add_email">E-Mail dobäisetzen</string>
   <string name="missing_app">Fir dës Aktioun gouf keng App fonnt.</string>
   <string name="menu_share">Deelen</string>
+  <string name="menu_add_contact">Bei d\'Kontakter dobäisetzen</string>
   <string name="share_via">Kontakter deelen iwwer</string>
   <string name="dialog_new_group_account">Grupp ënner dësem Kont erstellen</string>
   <string name="audio_chat">Stëmmchat</string>
@@ -132,18 +135,11 @@
   <string name="from_account_format"><xliff:g id="source" example="user@gmail.com">%1$s</xliff:g></string>
   <string name="use_photo_as_primary">Dës Foto benotzen</string>
   <string name="contact_read_only">Kann an dëser App net beaarbecht ginn.</string>
-  <string name="no_contact_details">Keng Zousazinformatiounen zu dësem Kontakt.</string>
   <string name="group_read_only">Kann op dësem Apparat net beaarbecht ginn.</string>
-  <string name="display_options_sort_list_by">Lëscht zortéieren no</string>
-  <string name="display_options_sort_by_given_name">Virnumm</string>
-  <string name="display_options_sort_by_family_name">Familljennumm</string>
-  <string name="display_options_view_names_as">Kontaktnimm ukucken</string>
-  <string name="display_options_view_given_name_first">Virnumm vir</string>
-  <string name="display_options_view_family_name_first">Familljennumm vir</string>
   <string name="take_photo">Foto maachen</string>
   <string name="take_new_photo">Nei Foto maachen</string>
-  <string name="pick_photo">Foto aus der Galerie auswielen</string>
-  <string name="pick_new_photo">Nei Foto aus der Galerie auswielen</string>
+  <string name="pick_photo">Foto auswielen</string>
+  <string name="pick_new_photo">Nei Foto auswielen</string>
   <string name="locale_change_in_progress">D\'Kontaktlëscht gëtt un déi geännert Sprooch ugepasst.</string>
   <string name="upgrade_in_progress">D\'Kontaktlëscht gëtt aktualiséiert.</string>
   <string name="upgrade_out_of_memory">Kontakter gi grad aktualiséiert.\n\nDen Aktualiséierungsprozess brauch ongeféier <xliff:g id="SIZE_IN_MEGABYTES">%s</xliff:g> MB vum interne Späicher.\n\nWiel eng vun de folgenden Optiounen aus:</string>
@@ -171,7 +167,6 @@
   <string name="menu_copyContact">Bei meng Kontakter kopéieren</string>
   <string name="add_to_my_contacts">Bei meng Kontakter dobäisetzen</string>
   <string name="contact_directory_description"><xliff:g id="type" example="Corporate Directory">%1$s</xliff:g>-Verzeechnes </string>
-  <string name="toast_making_personal_copy">Perséinlech Kopië ginn erstallt\u2026</string>
   <string name="list_filter_custom">Personaliséiert</string>
   <string name="activity_title_settings">Astellungen</string>
   <string name="menu_settings" msgid="377929915873428211">Astellungen</string>
@@ -227,9 +222,39 @@
   <string name="contact_editor_prompt_zero_accounts">Deng nei Kontakter ginn net geséchert. E Kont fir d\'Online-Sécherung vun denge Kontakter dobäisetzen?</string>
   <string name="contact_editor_prompt_one_account">Däin neie Kontakt gëtt mat <xliff:g id="account_name">%1$s</xliff:g> synchroniséiert.</string>
   <string name="contact_editor_prompt_multiple_accounts">Du kanns däin neie Kontakt mat engem vun dëse Konte synchroniséieren. Wéi ee wëlls du benotzen?</string>
+  <string name="contact_editor_title_new_contact">Neie Kontakt dobäisetzen</string>
+  <string name="contact_editor_title_existing_contact">Kontakt änneren</string>
   <string name="keep_local">Lokal späicheren</string>
   <string name="add_account">Kont dobäisetzen</string>
   <string name="add_new_account">Neie Kont dobäisetzen</string>
   <string name="menu_export_database">Datebankfichieren exportéieren</string>
-  <string name="contact_detail_picture_description">Bild. Auswiele fir z\'änneren</string>
+  <string name="action_menu_add_new_contact_button">Neie Kontakt dobäisetzen</string>
+  <string name="expanding_entry_card_view_see_more">Méi gesinn</string>
+  <string name="expanding_entry_card_view_see_less">Manner gesinn</string>
+  <string name="expanding_entry_card_view_see_all">All gesinn</string>
+  <string name="recent_card_title">Rezent</string>
+  <string name="about_card_title">Iwwer</string>
+  <string name="send_message">Message schécken</string>
+  <string name="toast_making_personal_copy">Eng perséinlech Kopie gëtt erstallt...</string>
+  <string name="yesterday">Gëschter</string>
+  <string name="tomorrow">Muer</string>
+  <string name="today">Haut</string>
+  <string name="today_at_time_fmt">"Haut um <xliff:g id="time_interval">%s</xliff:g>"</string>
+  <string name="tomorrow_at_time_fmt">"Muer um <xliff:g id="time_interval">%s</xliff:g>"</string>
+  <string name="date_time_fmt">"<xliff:g id="date">%s</xliff:g>, <xliff:g id="time_interval">%s</xliff:g>"</string>
+  <string name="untitled_event">(Rendezvous ouni Titel)</string>
+  <string name="date_time_set">Setzen</string>
+  <string name="header_im_entry">IM</string>
+  <string name="header_organization_entry">Organisatioun</string>
+  <string name="header_nickname_entry">Spëtznumm</string>
+  <string name="header_note_entry">Note</string>
+  <string name="header_website_entry">Websäit</string>
+  <string name="header_event_entry">Rendezvous</string>
+  <string name="header_relation_entry">Relatioun</string>
+  <string name="content_description_directions">Weebeschreiwung</string>
+  <string name="content_description_recent_sms">Rezent SMS. <xliff:g id="message_details">%s</xliff:g>. Drécke fir z\'äntweren</string>
+  <string name="content_description_recent_call_type_incoming">Erakommend</string>
+  <string name="content_description_recent_call_type_outgoing">Erausgoend</string>
+  <string name="content_description_recent_call_type_missed">Verpasst</string>
+  <string name="message_from_you_prefix">Du: <xliff:g id="sms_body">%s</xliff:g></string>
 </resources>

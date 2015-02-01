@@ -104,4 +104,6 @@
   <string name="widget_button_text">Widgeten</string>
   <string name="wallpaper_button_text">Hannergrondbiller</string>
   <string name="settings_button_text">Astellungen</string>
+  <string name="abandoned_search">Sichen</string>
+  <string name="abandoned_promises_title">Dës App ass net installéiert</string>
 </resources>

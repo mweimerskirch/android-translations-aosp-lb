@@ -19,8 +19,6 @@
   <string name="permdesc_bluetoothShareManager">Erlaabt der App, op de BluetoothShare-Manager zouzegräifen an e fir Fichiersiwwerdroungen ze benotzen.</string>
   <string name="permlab_bluetoothWhitelist">Bluetooth-Apparat op d\'Zougrëffslëscht setzen</string>
   <string name="permdesc_bluetoothWhitelist">Erlaabt der App, temporär e Bluetooth-Apparat op d\'wäiss Lëscht ze setzen, sou datt vun deem Apparat e Fichier kann empfaange ginn ouni datt de Benotzer d\'Iwwerdroung bestätege muss.</string>
-  <string name="permlab_handoverStatus">Bluetooth-Broadcasts fir d\'Iwwerdroung empfänken</string>
-  <string name="permdesc_handoverStatus">Erméiglecht den Empfang vu Statusinformatioune fir d\'Iwwerdroung per Bluetooth.</string>
   <string name="bt_share_picker_label">Bluetooth</string>
   <string name="unknown_device">Onbekannten Apparat</string>
   <string name="unknownNumber">Onbekannt</string>
@@ -31,7 +29,6 @@
   <string name="bt_enable_cancel">Ofbriechen</string>
   <string name="bt_enable_ok">Uschalten</string>
   <string name="incoming_file_confirm_title">Fichiersiwwerdroung</string>
-  <string name="incoming_file_confirm_content">\u0022<xliff:g id="sender">%1$s</xliff:g>\u0022 wëll dir <xliff:g id="file">%2$s</xliff:g> (<xliff:g id="size">%3$s</xliff:g>) schécken. \n\n De Fichier acceptéieren? </string>
   <string name="incoming_file_confirm_cancel">Refuséieren</string>
   <string name="incoming_file_confirm_ok">Acceptéieren</string>
   <string name="incoming_file_confirm_timeout_ok">OK</string>
@@ -54,6 +51,9 @@
   <string name="download_line5">Fichier gëtt empfaangen\u2026</string>
   <string name="download_cancel">Stoppen</string>
   <string name="download_ok">Verstoppen</string>
+  <string name="incoming_line1">Vum</string>
+  <string name="incoming_line2">Fichiersnumm</string>
+  <string name="incoming_line3">Gréisst</string>
   <string name="download_fail_line1">Fichier net empfaangen</string>
   <string name="download_fail_line2">Fichier: <xliff:g id="file">%1$s</xliff:g></string>
   <string name="download_fail_line3">Grond: <xliff:g id="reason">%1$s</xliff:g></string>

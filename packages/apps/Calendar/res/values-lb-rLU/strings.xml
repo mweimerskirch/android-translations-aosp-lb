@@ -193,6 +193,7 @@
   <string name="preferences_alerts_popup_title">Pop-up-Notifikatioun</string>
   <string name="preferences_default_reminder_title">Standardzäit fir Erënnerungen</string>
   <string name="preferences_default_reminder_dialog">Standardzäit fir Erënnerungen</string>
+  <string name="preferences_default_reminder_default">10</string>
   <string name="preferences_use_home_tz_title">Heemechtszäitzon benotzen</string>
   <string name="preferences_use_home_tz_descrip">Weist beim Reesen d\'Kalenner- a Rendezvouszäiten an der Heemechtszäitzon</string>
   <string name="preferences_home_tz_title">Heemechtszäitzon</string>

@@ -24,6 +24,7 @@
   <string name="label_previous_key">Zréck</string>
   <string name="label_done_key">Fäerdeg</string>
   <string name="label_send_key">Schécken</string>
+  <string name="label_search_key">Sichen</string>
   <string name="label_pause_key">Paus</string>
   <string name="label_wait_key">Waart</string>
 </resources>

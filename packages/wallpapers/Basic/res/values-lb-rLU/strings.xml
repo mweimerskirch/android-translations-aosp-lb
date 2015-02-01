@@ -24,33 +24,11 @@
   <string name="wallpaper_walkaround_desc">
         Kuck duerch däin Telefon a laf ronderëm ouni Accidenter ze riskéieren.
     </string>
-  <string name="wallpaper_grass">Gras</string>
-  <string name="wallpaper_grass_author">Google</string>
-  <string name="wallpaper_grass_desc">
-        Grashällem déi sech duuss virun engem Dages- oder Nuetshimmel beweegen.
-    </string>
-  <string name="wallpaper_galaxy">Galaxie</string>
-  <string name="wallpaper_galaxy_author">Google</string>
-  <string name="wallpaper_galaxy_desc">
-        Eng Galaxie aus Stären déi lues ronderëmwierbelen.
-    </string>
-  <string name="wallpaper_fall">Waasser</string>
-  <string name="wallpaper_fall_author">Google</string>
-  <string name="wallpaper_fall_desc">
-        Hierschtblieder rotéieren&lt;br&gt;
-        op de plätscherende Weier:&lt;br&gt;
-        Flësseg Hannergrondentspanung
-    </string>
   <string name="wallpaper_clock">Polarauer</string>
   <string name="wallpaper_clock_author">Google</string>
   <string name="wallpaper_clock_desc">
         Presentéiert Datum an Auerzäit als Hallefkreeser: Mount,
         Dag, Stonn, Minutt, a Sekonn.
-    </string>
-  <string name="wallpaper_nexus">Nexus</string>
-  <string name="wallpaper_nexus_author">Google</string>
-  <string name="wallpaper_nexus_desc">
-        E Bléck an d\'neuraalt Netzwierk.
     </string>
   <string name="clock_settings">Astellunge vun der Polarauer</string>
   <string name="show_seconds">Sekonnen uweisen</string>

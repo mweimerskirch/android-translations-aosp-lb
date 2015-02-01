@@ -34,4 +34,10 @@
   <string name="keyboard_layout_slovenian">Slowenesch</string>
   <string name="keyboard_layout_turkish">Tierkesch</string>
   <string name="keyboard_layout_ukrainian">Ukrainesch</string>
+  <string name="keyboard_layout_arabic">Arabesch</string>
+  <string name="keyboard_layout_greek">Griichesch</string>
+  <string name="keyboard_layout_hebrew">Hebräesch</string>
+  <string name="keyboard_layout_lithuanian">Litauesch</string>
+  <string name="keyboard_layout_spanish_latin">Spuenesch (Latäin)</string>
+  <string name="keyboard_layout_latvian">Lettesch</string>
 </resources>

@@ -28,6 +28,13 @@
   <string name="menu_save">Späicheren</string>
   <string name="menu_share">Deelen</string>
   <string name="menu_delete">Läschen</string>
+  <string name="menu_select">\"<xliff:g id="directory" example="My Directory">^1</xliff:g>\" auswielen</string>
+  <string name="menu_advanced_show" product="nosdcard">Interne Späicher uweisen</string>
+  <string name="menu_advanced_show" product="default">SD-Kaart uweisen</string>
+  <string name="menu_advanced_hide" product="nosdcard">Interne Späicher verstoppen</string>
+  <string name="menu_advanced_hide" product="default">SD-Kaart verstoppen</string>
+  <string name="menu_file_size_show">Fichiersgréisst uweisen</string>
+  <string name="menu_file_size_hide">Fichiersgréisst verstoppen</string>
   <string name="mode_selected_count"><xliff:g id="count" example="3">%1$d</xliff:g> ausgewielt</string>
   <string name="sort_name">No Numm</string>
   <string name="sort_date">No Ännerungsdatum</string>
@@ -43,9 +50,6 @@
   <string name="root_type_shortcut">Ofkierzungen</string>
   <string name="root_type_device">Apparater</string>
   <string name="root_type_apps">Méi Appen</string>
-  <string name="pref_advanced_devices">Avancéiert Apparater uweisen</string>
-  <string name="pref_file_size">Fichiersgréisst uweisen</string>
-  <string name="pref_device_size">Gréisst vun den Apparater uweisen</string>
   <string name="empty">Keng Elementer</string>
   <string name="toast_no_application">Fichier kann net opgemaach ginn</string>
   <string name="toast_failed_delete">Verschidden Dokumenter konnten net geläscht ginn</string>

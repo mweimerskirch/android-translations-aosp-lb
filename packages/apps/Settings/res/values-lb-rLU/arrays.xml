@@ -110,16 +110,6 @@
     <item>Blockéiert</item>
     <item>Schlecht Internetconnectioun gëtt temporär ignoréiert</item>
   </string-array>
-  <string-array name="wifi_security_no_eap">
-    <item>@string/wifi_security_none</item>
-    <item>@string/wifi_security_wep</item>
-    <item>@string/wifi_security_psk_generic</item>
-  </string-array>
-  <string-array name="wifi_ap_security">
-    <item>@string/wifi_security_none</item>
-    <item>@string/wifi_security_wpa</item>
-    <item>@string/wifi_security_wpa2</item>
-  </string-array>
   <string-array name="wifi_p2p_wps_setup">
     <item>Push-Knäppchen</item>
     <item>PIN vum associéierten Apparat</item>
@@ -147,7 +137,7 @@
   <string-array name="wifi_sleep_policy_entries">
     <item>Ëmmer</item>
     <item>Just wann um Stroum ugeschloss</item>
-    <item>Ni (erhéicht den Dateverbrauch)</item>
+    <item>Never</item>
   </string-array>
   <string-array name="wifi_sleep_policy_entries_wifi_only">
     <item>Ëmmer</item>
@@ -160,7 +150,7 @@
     <item>0</item>
   </string-array>
   <string-array name="wifi_frequency_band_entries">
-    <item>Automatesch</item>
+    <item>Automatic</item>
     <item>just 5 GHz</item>
     <item>just 2.4 GHz</item>
   </string-array>
@@ -171,7 +161,7 @@
   </string-array>
   <string-array name="usage_stats_display_order_types">
     <item>Benotzungszäit</item>
-    <item>Startunzuel</item>
+    <item>Last time used</item>
     <item>App-Numm</item>
   </string-array>
   <string-array name="wifi_eap_entries">
@@ -199,16 +189,7 @@
   <string-array name="wifi_proxy_settings">
     <item>Keen</item>
     <item>Manuell</item>
-  </string-array>
-  <string-array name="emergency_tone_entries">
-    <item>Aus</item>
-    <item>Warnung</item>
-    <item>Vibréieren</item>
-  </string-array>
-  <string-array name="emergency_tone_values">
-    <item>0</item>
-    <item>1</item>
-    <item>2</item>
+    <item>Proxy Auto-Config</item>
   </string-array>
   <string-array name="apn_auth_entries">
     <item>Keng</item>
@@ -288,6 +269,10 @@
     <item>aktiv loossen</item>
     <item>Standuert iwwerwaachen</item>
     <item>Standuerter mat héijem Stroumverbrauch iwwerwaachen</item>
+    <item>get usage stats</item>
+    <item>mute/unmute microphone</item>
+    <item>project media</item>
+    <item>activate VPN</item>
   </string-array>
   <string-array name="app_ops_labels">
     <item>Standuert</item>
@@ -333,6 +318,10 @@
     <item>Aktiv loossen</item>
     <item>Standuert</item>
     <item>Standuert</item>
+    <item>Get usage stats</item>
+    <item>Mute/unmute microphone</item>
+    <item>Project media</item>
+    <item>Activate VPN</item>
   </string-array>
   <string-array name="long_press_timeout_selector_titles">
     <item>Kuerz</item>
@@ -343,8 +332,12 @@
     <item>Standard</item>
     <item>Ouni Serifen</item>
     <item>Ouni Serifen (kondenséiert)</item>
-    <item>Mat Serifen</item>
-    <item>Fest Breet</item>
+    <item>Sans-serif monospace</item>
+    <item>Serif</item>
+    <item>Serif monospace</item>
+    <item>Casual</item>
+    <item>Kursiv</item>
+    <item>Small capitals</item>
   </string-array>
   <string-array name="captioning_font_size_selector_titles">
     <item>Ganz kleng</item>
@@ -354,32 +347,18 @@
     <item>Ganz grouss</item>
   </string-array>
   <string-array name="captioning_edge_type_selector_titles">
-    <item>Ouni</item>
-    <item>Kontur</item>
-    <item>Schiet</item>
+    <item>Standard</item>
+    <item>None</item>
+    <item>Outline</item>
+    <item>Drop shadow</item>
+    <item>Raised</item>
+    <item>Depressed</item>
   </string-array>
   <string-array name="captioning_opacity_selector_titles">
     <item>25%</item>
     <item>50%</item>
     <item>75%</item>
     <item>100%</item>
-  </string-array>
-  <string-array name="captioning_preset_selector_titles">
-    <item>Wäiss op Schwaarz</item>
-    <item>Schwaarz op Wäiss</item>
-    <item>Giel op Schwaarz</item>
-    <item>Giel op Blo</item>
-    <item>Personaliséiert</item>
-  </string-array>
-  <string-array name="select_runtime_titles">
-    <item>Dalvik</item>
-    <item>ART</item>
-    <item>ART (Feelersich)</item>
-  </string-array>
-  <string-array name="select_runtime_summaries">
-    <item>Dalvik benotzen</item>
-    <item>ART benotzen</item>
-    <item>ART-Feelersichbuild benotzen</item>
   </string-array>
   <string-array name="hdcp_checking_titles">
     <item>Ni iwwerpréiwen</item>
@@ -442,14 +421,12 @@
   <string-array name="track_frame_time_entries">
     <item>Aus</item>
     <item>Um Schierm als Strécher</item>
-    <item>Um Schierm als Linnen</item>
-    <item>An der ADB-Shell mat dumpsys gfxinfo</item>
+    <item>In adb shell dumpsys gfxinfo</item>
   </string-array>
   <string-array name="debug_hw_overdraw_entries">
     <item>Aus</item>
     <item>Iwwerschneidungsberäicher uweisen</item>
     <item>Beräicher fir Deuteranomalie uweisen</item>
-    <item>Iwwerschneidungszieler uweisen</item>
   </string-array>
   <string-array name="app_process_limit_entries">
     <item>Standardlimitt</item>
@@ -485,5 +462,27 @@
     <item>moderat</item>
     <item>niddreg</item>
     <item>kritesch</item>
+  </string-array>
+  <string-array name="proc_stats_memory_states">
+    <item>Normal</item>
+    <item>Moderat</item>
+    <item>Niddreg</item>
+    <item>Critical</item>
+  </string-array>
+  <string-array name="proc_stats_process_states">
+    <item>Persistent</item>
+    <item>Top activity</item>
+    <item>Important (foreground)</item>
+    <item>Important (background)</item>
+    <item>Backup</item>
+    <item>Heavy weight</item>
+    <item>Service (running)</item>
+    <item>Service (restarting)</item>
+    <item>Empfänger</item>
+    <item>Doheem</item>
+    <item>Lescht Aktivitéit</item>
+    <item>Cached (activity)</item>
+    <item>Cached (activity client)</item>
+    <item>Cached (empty)</item>
   </string-array>
 </resources>
