@@ -256,5 +256,6 @@
   <string name="content_description_recent_call_type_incoming">Erakommend</string>
   <string name="content_description_recent_call_type_outgoing">Erausgoend</string>
   <string name="content_description_recent_call_type_missed">Verpasst</string>
+  <string name="content_description_recent_call">Rezenten Uruff. <xliff:g id="call_details">%s</xliff:g>. Drécke fir zréckzeruffen</string>
   <string name="message_from_you_prefix">Du: <xliff:g id="sms_body">%s</xliff:g></string>
 </resources>

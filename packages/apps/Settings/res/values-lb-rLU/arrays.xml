@@ -75,6 +75,17 @@
     <item>Ganz rapid</item>
     <item>Am séiersten</item>
   </string-array>
+  <string-array name="tts_rate_values">
+    <item>60</item>
+    <item>80</item>
+    <item>100</item>
+    <item>150</item>
+    <item>200</item>
+    <item>250</item>
+    <item>300</item>
+    <item>350</item>
+    <item>400</item>
+  </string-array>
   <string-array name="tts_pitch_entries">
     <item>Ganz niddreg</item>
     <item>Niddreg</item>
@@ -110,6 +121,12 @@
     <item>Blockéiert</item>
     <item>Schlecht Internetconnectioun gëtt temporär ignoréiert</item>
   </string-array>
+  <string-array name="wifi_eap_method">
+    <item>PEAP</item>
+    <item>TLS</item>
+    <item>TTLS</item>
+    <item>PWD</item>
+  </string-array>
   <string-array name="wifi_p2p_wps_setup">
     <item>Push-Knäppchen</item>
     <item>PIN vum associéierten Apparat</item>
@@ -137,7 +154,7 @@
   <string-array name="wifi_sleep_policy_entries">
     <item>Ëmmer</item>
     <item>Just wann um Stroum ugeschloss</item>
-    <item>Never</item>
+    <item>Ni</item>
   </string-array>
   <string-array name="wifi_sleep_policy_entries_wifi_only">
     <item>Ëmmer</item>
@@ -149,8 +166,16 @@
     <item>1</item>
     <item>0</item>
   </string-array>
+  <string-array name="data_usage_data_range">
+    <item>Lescht 30 Deeg</item>
+    <item>Benotzungszyklus definéieren...</item>
+  </string-array>
+  <string-array name="sim_card_data_range">
+    <item>Lescht 4 Zifferen</item>
+    <item>4 éischt Zifferen</item>
+  </string-array>
   <string-array name="wifi_frequency_band_entries">
-    <item>Automatic</item>
+    <item>Automatesch</item>
     <item>just 5 GHz</item>
     <item>just 2.4 GHz</item>
   </string-array>
@@ -161,7 +186,7 @@
   </string-array>
   <string-array name="usage_stats_display_order_types">
     <item>Benotzungszäit</item>
-    <item>Last time used</item>
+    <item>Fir d\'lescht benotzt</item>
     <item>App-Numm</item>
   </string-array>
   <string-array name="wifi_eap_entries">
@@ -189,7 +214,7 @@
   <string-array name="wifi_proxy_settings">
     <item>Keen</item>
     <item>Manuell</item>
-    <item>Proxy Auto-Config</item>
+    <item>Auto-Proxy-Konfiguratioun</item>
   </string-array>
   <string-array name="apn_auth_entries">
     <item>Keng</item>
@@ -269,10 +294,10 @@
     <item>aktiv loossen</item>
     <item>Standuert iwwerwaachen</item>
     <item>Standuerter mat héijem Stroumverbrauch iwwerwaachen</item>
-    <item>get usage stats</item>
-    <item>mute/unmute microphone</item>
-    <item>project media</item>
-    <item>activate VPN</item>
+    <item>Benotzungsstatistiken ausliesen</item>
+    <item>Mikro un-/ausschalten</item>
+    <item>Projektioun vu Medieninhalter</item>
+    <item>VPN aktivéieren</item>
   </string-array>
   <string-array name="app_ops_labels">
     <item>Standuert</item>
@@ -318,10 +343,10 @@
     <item>Aktiv loossen</item>
     <item>Standuert</item>
     <item>Standuert</item>
-    <item>Get usage stats</item>
-    <item>Mute/unmute microphone</item>
-    <item>Project media</item>
-    <item>Activate VPN</item>
+    <item>Benotzungsstatistiken ausliesen</item>
+    <item>Mikro un-/ausschalten</item>
+    <item>Projektioun vu Medieninhalter</item>
+    <item>VPN aktivéieren</item>
   </string-array>
   <string-array name="long_press_timeout_selector_titles">
     <item>Kuerz</item>
@@ -332,12 +357,12 @@
     <item>Standard</item>
     <item>Ouni Serifen</item>
     <item>Ouni Serifen (kondenséiert)</item>
-    <item>Sans-serif monospace</item>
-    <item>Serif</item>
-    <item>Serif monospace</item>
-    <item>Casual</item>
+    <item>Ouni Serifen (net-proportional)</item>
+    <item>Mat Serifen</item>
+    <item>Mat Serifen (net-proportional)</item>
+    <item>Lässeg</item>
     <item>Kursiv</item>
-    <item>Small capitals</item>
+    <item>Kleng Groussbuschtawen</item>
   </string-array>
   <string-array name="captioning_font_size_selector_titles">
     <item>Ganz kleng</item>
@@ -348,17 +373,44 @@
   </string-array>
   <string-array name="captioning_edge_type_selector_titles">
     <item>Standard</item>
-    <item>None</item>
-    <item>Outline</item>
-    <item>Drop shadow</item>
-    <item>Raised</item>
-    <item>Depressed</item>
+    <item>Keng</item>
+    <item>Kontur</item>
+    <item>Schiet</item>
+    <item>Erhéicht</item>
+    <item>Verdéift</item>
   </string-array>
   <string-array name="captioning_opacity_selector_titles">
     <item>25%</item>
     <item>50%</item>
     <item>75%</item>
     <item>100%</item>
+  </string-array>
+  <string-array name="captioning_preset_selector_titles">
+    <item>Standardwäerter benotzen</item>
+    <item>Wäiss op Schwaarz</item>
+    <item>Schwaarz op Wäiss</item>
+    <item>Giel op Schwaarz</item>
+    <item>Giel op Blo</item>
+    <item>Personaliséiert</item>
+  </string-array>
+  <string-array name="select_logd_size_titles">
+    <item>64k</item>
+    <item>256k</item>
+    <item>1M</item>
+    <item>4M</item>
+    <item>16M</item>
+  </string-array>
+  <string-array name="select_logd_size_lowram_titles">
+    <item>64k</item>
+    <item>256k</item>
+    <item>1M</item>
+  </string-array>
+  <string-array name="select_logd_size_summaries">
+    <item>64k pro Protokoll-Tëschespäicher</item>
+    <item>256k pro Protokoll-Tëschespäicher</item>
+    <item>1M pro Protokoll-Tëschespäicher</item>
+    <item>4M pro Protokoll-Tëschespäicher</item>
+    <item>16M pro Protokoll-Tëschespäicher</item>
   </string-array>
   <string-array name="hdcp_checking_titles">
     <item>Ni iwwerpréiwen</item>
@@ -421,7 +473,7 @@
   <string-array name="track_frame_time_entries">
     <item>Aus</item>
     <item>Um Schierm als Strécher</item>
-    <item>In adb shell dumpsys gfxinfo</item>
+    <item>An der ADB-Shell mat dumpsys gfxinfo</item>
   </string-array>
   <string-array name="debug_hw_overdraw_entries">
     <item>Aus</item>
@@ -463,26 +515,31 @@
     <item>niddreg</item>
     <item>kritesch</item>
   </string-array>
+  <string-array name="entries_zen_mode">
+    <item>Aus</item>
+    <item>Begrenzt Ënnerbriechungen</item>
+    <item>Keng Ënnerbriechungen</item>
+  </string-array>
   <string-array name="proc_stats_memory_states">
     <item>Normal</item>
     <item>Moderat</item>
     <item>Niddreg</item>
-    <item>Critical</item>
+    <item>Kritesch</item>
   </string-array>
   <string-array name="proc_stats_process_states">
     <item>Persistent</item>
-    <item>Top activity</item>
-    <item>Important (foreground)</item>
-    <item>Important (background)</item>
-    <item>Backup</item>
-    <item>Heavy weight</item>
-    <item>Service (running)</item>
-    <item>Service (restarting)</item>
+    <item>Topaktivitéit</item>
+    <item>Wichteg (Virdergrond)</item>
+    <item>Important (Hannergrond)</item>
+    <item>Sécherung</item>
+    <item>Héich Auslaaschtung</item>
+    <item>Service (leeft)</item>
+    <item>Service (gëtt nei gestart)</item>
     <item>Empfänger</item>
     <item>Doheem</item>
     <item>Lescht Aktivitéit</item>
-    <item>Cached (activity)</item>
-    <item>Cached (activity client)</item>
-    <item>Cached (empty)</item>
+    <item>Tëschegespäichert (Aktivitéit)</item>
+    <item>Tëschegespäichert (Aktivitéitsclient)</item>
+    <item>Tëschegespäichert (eidel)</item>
   </string-array>
 </resources>

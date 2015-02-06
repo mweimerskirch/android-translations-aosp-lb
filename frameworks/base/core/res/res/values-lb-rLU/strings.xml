@@ -246,7 +246,7 @@
   <string name="permgroupdesc_phoneCalls">Telefonsuriff iwwerwaachen, ophuelen a veraarbechten.</string>
   <string name="permgrouplab_systemTools">Systemgeschirer</string>
   <string name="permgroupdesc_systemTools">Zougrëff a Steierung vum System op niddregem Niveau.</string>
-  <string name="permgrouplab_developmentTools">Entwécklungsgeschirer</string>
+  <string name="permgrouplab_developmentTools">Entwécklungsgeschir</string>
   <string name="permgroupdesc_developmentTools">Funktiounen déi just vun App-Entwéckler gebraucht ginn.</string>
   <string name="permgrouplab_display">Aneren App-Benotzerinterface</string>
   <string name="permgroupdesc_display">De Benotzerinterface vun aneren Applikatioune beaflossen.</string>
@@ -295,7 +295,7 @@
   <string name="permdesc_writeSms" product="default">Erlaabt der App, SMS-Messagen déi um Telefon oder op der SIM-Kaart gespäichert sinn ze beaarbechten. Béiswëlleg Appe kéinten deng Message läschen.</string>
   <string name="permlab_receiveWapPush">Textmessagen (WAP) empfänken</string>
   <string name="permdesc_receiveWapPush">Erlaabt der App, WAP-Messagen z\'empfänken an ze beaarbechten. Dës Berechtegung huet d\'Fäegkeet, Messagen déi s du geschéckt kriss z\'iwwerwaachen oder ze läschen, ouni datt s du se ze gesi kriss.</string>
-  <string name="permlab_receiveBluetoothMap">Bluetooth-Messagen (MAP) emfänken</string>
+  <string name="permlab_receiveBluetoothMap">Bluetooth-Messagen (MAP) empfänken</string>
   <string name="permdesc_receiveBluetoothMap">Erlaabt der App, Bluetooth-MAP-Messagen z\'empfänken an ze veraarbechten. Dat bedeit datt d\'App Messagen déi s du geschéckt kriss iwwerwaachen oder läsche kann ouni datt s du se gesäis.</string>
   <string name="permlab_getTasks">Lafend Appen ausliesen</string>
   <string name="permdesc_getTasks">Erlaabt der App, Informatiounen iwwer Aufgaben ofzeruffen déi grad lafen oder viru kuerzem gelaf sinn. Dat kéint der App erméiglechen, Informatiounen z\'entdecken iwwer d\'Appen déi um Apparat benotzt ginn.</string>
@@ -335,10 +335,12 @@
   <string name="permdesc_retrieve_window_content">Erlaabt der App, den Inhalt vun der aktiver Fënster auszeliesen. Béisaarteg Appe kéinten de ganze Fënsterinhalt ausliesen an de ganzen Text (ausser Passwuertfelder) analyséieren.</string>
   <string name="permlab_temporary_enable_accessibility">Accessibilitéitsfunktiounen temporär aktivéieren</string>
   <string name="permdesc_temporary_enable_accessibility">Erlaabt der App, d\'Accessibilitéitsfunktiounen um Apparat kuerzzäiteg unzeschalten. Béisaarteg Appe kéinten d\'Accessibilitéitsfunktiounen ouni Awëllegung vum Benotzer aktivéieren.</string>
+  <string name="permlab_frameStats">Frame-Statistiken ausliesen</string>
+  <string name="permdesc_frameStats">Erlaabt der App, Frame-Statistiken ze sammelen. Béisaarteg Appe kënnen dat benotze fir Statistike vun aneren Appen auszeliesen.</string>
   <string name="permlab_filter_events">Rendezvouse filteren</string>
   <string name="permdesc_filter_events">Erlaabt der App, e Filter ze registréieren, deen de Floss vun allen Notzerevenementer filtert ier se verschéckt ginn. Eng béisaarteg App kéint d\'Benotzeruewerfläch ouni Agräife vum Benotzer steieren.</string>
   <string name="permlab_shutdown">Partiellt Ausmaachen</string>
-  <string name="permdesc_shutdown">Setzt den Aktivitéitemanager an en erofgefuerenen Zoustand, mee féiert kee vollstännegt Eroffueren aus.</string>
+  <string name="permdesc_shutdown">Setzt den Aktivitéitemanager an en erofgefuerenen Zoustand, mä féiert kee vollstännegt Eroffueren aus.</string>
   <string name="permlab_stopAppSwitches">App-Wiessel verhënneren</string>
   <string name="permdesc_stopAppSwitches">Hënner de Benotzer dorunner op eng aner App ze wiesselen.</string>
   <string name="permlab_getTopActivityInfo">Informatiounen zur aktueller App ausliesen</string>
@@ -356,7 +358,7 @@
   <string name="permlab_setAlwaysFinish">Appen am Hannergrond zoumaachen</string>
   <string name="permdesc_setAlwaysFinish">Erlaabt der App, ze kontrolléieren ob Aktivitéite sollen ofgeschloss ginn, soubal se an den Hannergrond gesat ginn. Ni néideg fir normal Appen.</string>
   <string name="permlab_batteryStats">Akkustatistiken ausliesen</string>
-  <string name="permdesc_batteryStats">Erlaabt der App, déi aktuell Akkunotzungsdaten ze liesen. Doduerch kéint d\'App erausfanne wéi eng Appen datt de benotz.</string>
+  <string name="permdesc_batteryStats">Erlaabt der App, déi aktuell Akkubenotzungsdaten ze liesen. Doduerch kéint d\'App erausfanne wéi eng Appen datt de benotz.</string>
   <string name="permlab_updateBatteryStats">Akkustatistiken änneren</string>
   <string name="permdesc_updateBatteryStats">Erlaabt der App, déi gesammelt Akkustatistiken z\'änneren. Net fir normal Appe geduecht.</string>
   <string name="permlab_getAppOpsStats">App-Virgangsstatistiken ofruffen</string>
@@ -398,6 +400,8 @@
   <string name="permdesc_bindVpnService">Erlaabt der App, sech op ieweschtem Niveau un d\'Schnëttstell vun engem VPN-Service unzebannen. Sollt ni fir normal Appen néideg sinn.</string>
   <string name="permlab_bindWallpaper">Un en Hannergrondbild bannen</string>
   <string name="permdesc_bindWallpaper">Erlaabt der App, sech op ieweschtem Niveau un d\'Schnëttstell vun engem Hannergrondbild unzebannen. Sollt ni fir normal Appen néideg sinn.</string>
+  <string name="permlab_manageVoiceKeyphrases">Stëmm-Schlësselsätz geréieren</string>
+  <string name="permdesc_manageVoiceKeyphrases">Erlaabt der App, Schlësselsätz fir d\'Stëmmerkennung ze geréieren. Sollt ni fir normal Appen néideg sinn.</string>
   <string name="permlab_bindRemoteDisplay">Un e Remote-Schierm ubannen</string>
   <string name="permdesc_bindRemoteDisplay">Erlaabt der App, sech op ieweschtem Niveau un d\'Schnëttstell vun engem Remote-Display unzebannen. Sollt ni fir normal Appen néideg sinn.</string>
   <string name="permlab_bindRemoteViews">Un e Widget-Service bannen</string>
@@ -406,6 +410,8 @@
   <string name="permdesc_bindDeviceAdmin">Erlaabt der App, \"Intents\" un den Administrateur vum Apparat ze schécken. Sollt ni fir normal Appen néideg sinn.</string>
   <string name="permlab_bindTvInput">Un en Tëleesagank ubannen</string>
   <string name="permdesc_bindTvInput">Erlaabt der App, sech op ieweschtem Niveau un d\'Schnëttstell vun engem Tëleesagank unzebannen. Sollt ni fir normal Appen néideg sinn.</string>
+  <string name="permlab_modifyParentalControls">Jugendschutz änneren</string>
+  <string name="permdesc_modifyParentalControls">Erlaabt der App, d\'Jugendschutzoptioune vum System z\'änneren. Sollt ni fir normal Appen néideg sinn.</string>
   <string name="permlab_manageDeviceAdmins">Apparatadministrator dobäisetzen oder ewechhuelen</string>
   <string name="permdesc_manageDeviceAdmins">Erlaabt der App, aktiv Administrateure vum Apparat dobäizesetzen oder ze läschen. Sollt ni fir normal Appen néideg sinn.</string>
   <string name="permlab_setOrientation">Schiermorientéierung änneren</string>
@@ -441,6 +447,7 @@
   <string name="permdesc_anyCodecForPlayback">Erlaabt der App, all déi installéiert Dekodere fir d\'Ofspille vu Medien ze benotzen.</string>
   <string name="permlab_manageCaCertificates">Vertrauenswierdeg Zouganksdate geréieren</string>
   <string name="permdesc_manageCaCertificates">Erlaabt der App, CA-Zertifikater als vertrauenswierdeg Zouganksdaten z\'installéieren oder deinstalléieren.</string>
+  <string name="permdesc_bindJobService">Dës Berechtegung erlaabt dem Android-System, bei enger Ufro d\'App am Hannergrond lafen ze loossen.</string>
   <string name="permlab_diagnostic">Elementer déi der Diagnosgrupp gehéiere liesen a schreiwen</string>
   <string name="permdesc_diagnostic">Erlaabt der App, all d\'Resourcen déi der Diagnosgrupp gehéieren (zum Beispill Fichieren am Dossier /dev) ze liesen an ze schreiwen. Dat ka méiglecherweis d\'Systemstabilitéit a -sécherheet beaflossen. Dës Berechtegung sollt JUST fir Hardware-spezifesch Diagnostike vum Hiersteller oder Provider benotzt ginn.</string>
   <string name="permlab_changeComponentState">App-Komponenten aktivéieren oder desaktivéieren</string>
@@ -478,6 +485,8 @@
   <string name="permdesc_readProfile" product="default">Erlaabt der App, perséinlech Profilinformatioune déi um Apparat gespäichert sinn, wéi däin Numm an deng Kontaktinformatiounen, auszeliesen. Dat bedeit datt d\'App dech identifizéiere kann an deng Profilinformatiounen un anerer schécke kann.</string>
   <string name="permlab_writeProfile">Eege Kontaktkaart änneren</string>
   <string name="permdesc_writeProfile" product="default">Erlaabt der App, perséinlech Profilinformatioune déi um Apparat gespäichert sinn, wéi däin Numm an deng Kontaktinformatiounen, dobäizesetzen oder z\'äneren. Dat bedeit datt d\'App dech identifizéiere kann an deng Profilinformatiounen un anerer schécke kann.</string>
+  <string name="permlab_bodySensors">Kierpersensoren (wéi e Bolsmiesser)</string>
+  <string name="permdesc_bodySensors" product="default">Erlaabt der App, op Date vu Sensoren zouzegräifen, déi moosse wat an dengem Kierper geschitt, wéi beispillsweis e Bolsmiesser.</string>
   <string name="permlab_readSocialStream" product="default">Däi soziale Stream liesen</string>
   <string name="permdesc_readSocialStream" product="default">Erlaabt der App, op Statusmessagë vun dir an denge Frënn zouzegräifen a se ze synchroniséieren. Pass op wann s du Informatiounen deels: Der App gëtt erlaabt, d\'Kommunikatioun tëscht dir an denge Kolleegen a sozialen Netzwierker ze liesen, onofhängeg vun der Vertraulechkeet vun de kommunizéierten Informatiounen. Hiwäis: Dës Berechtegung ka méiglecherweis net an alle sozialen Netzwierker duerchgesat ginn.</string>
   <string name="permlab_writeSocialStream" product="default">An däi soziale Stream schreiwen</string>
@@ -510,6 +519,8 @@
   <string name="permdesc_captureAudioOutput">Erlaabt der App, den Toun-Ausgank ofzefänken an ëmzeleeden.</string>
   <string name="permlab_captureAudioHotword">Hotword-Erkennung</string>
   <string name="permdesc_captureAudioHotword">Erlaabt der App, fir d\'Erkennung vum Hotword den Toun ofzefänken. D\'Offänke kann am Hannergrond geschéien awer verhënnert keng aner Tounopnamen (z. B. duerch de Videorekorder).</string>
+  <string name="permlab_modifyAudioRouting">Tounëmleedung</string>
+  <string name="permdesc_modifyAudioRouting">Erlaabt der App, d\'Tounëmleedung ze steieren an d\'Tounrichtlinnendecisiounen z\'iwwerschreiwen.</string>
   <string name="permlab_captureVideoOutput">Videoausgank ophuelen</string>
   <string name="permdesc_captureVideoOutput">Erlaabt der App, de Video-Ausgank ofzefänken an ëmzeleeden.</string>
   <string name="permlab_captureSecureVideoOutput">Séchere Video-Ausgank ophuelen</string>
@@ -520,6 +531,8 @@
   <string name="permdesc_modifyAudioSettings">Erlaabt der App, déi global Audioastellungen ze steieren, z. B. d\'Lautstäerkt oder wéi ee Lautsprecher benotzt soll ginn.</string>
   <string name="permlab_recordAudio">Toun ophuelen</string>
   <string name="permdesc_recordAudio">Erlaabt der App, Toun mam Mikro opzehuelen. Dës Berechtegung erlaabt der App zu all Moment Toun ouni deng Bestätegung opzehuelen.</string>
+  <string name="permlab_sim_communication">SIM-Kommunikatioun</string>
+  <string name="permdesc_sim_communication">Erlaabt der App, Befeeler un d\'SIM ze schécken. Dat ass immens geféierlech.</string>
   <string name="permlab_camera">Biller a Videoen ophuelen</string>
   <string name="permdesc_camera">Erlaabt der App, Biller a Videoe mat der Kamera opzehuelen. Dës Berechtegung erlaabt der App, d\'Kamera zu all Moment ouni däin Awierken ze benotzen.</string>
   <string name="permlab_cameraDisableTransmitLed">LED-Statusluucht bei der Benotzung vun der Kamera desaktivéieren</string>
@@ -549,7 +562,7 @@
   <string name="permlab_asec_rename">Interne Späicher ëmbenennen</string>
   <string name="permdesc_asec_rename">Erlaabt der App, den interne Späicher ëmzebenennen.</string>
   <string name="permlab_vibrate">Vibratioun steieren</string>
-  <string name="permdesc_vibrate">Erlaabt der App, de Vibrator ze steieren.</string>
+  <string name="permdesc_vibrate">Erlaabt der App, d\'Vibratioun ze steieren.</string>
   <string name="permlab_flashlight">Täscheluucht steieren</string>
   <string name="permdesc_flashlight">Erlaabt der App, d\'Täscheluucht ze steieren.</string>
   <string name="permlab_manageUsb">Astellungen a Berechtegunge fir USB-Apparate geréieren</string>
@@ -575,6 +588,8 @@
   <string name="permdesc_modifyPhoneState">Erlaabt der App, d\'Telefonsfunktiounen um Apparat ze steieren. Eng App mat dëser Berechtegung kann d\'Netzwierker wiesselen, de Radio un- an ausschalten an ähnleches ouni datt s du et matkriss.</string>
   <string name="permlab_readPhoneState">Status an Identitéit vum Telefon liesen</string>
   <string name="permdesc_readPhoneState">Erlaabt der App, op d\'Telefonsfunktioune vum Apparat zouzegräifen. Mat dëser Berechtegung kann d\'App d\'Telefonsnummer an d\'Identifikatiounsnummer vum Apparat, a wann en Uruff aktiv ass och d\'Telefonsnummer vum Gespréichspartner, ausliesen.</string>
+  <string name="permlab_readPrecisePhoneState">Prezisen Telefonsstatus ausliesen</string>
+  <string name="permdesc_readPrecisePhoneState">Erlaabt der App, op de prezisen Telefonsstatus zouzegräifen. Dës Berechtegung erméiglecht et der App, den Uruffstatus ze gesinn (z. B. ob en Uruff aktiv oder am Hannergrond ass) oder ob en Uruff feelgeschloen ass, genee sou wéi de Status vun der Dateconnectioun ze gesinn, oder wann d\'Dateconnectioun feelgeschloen ass.</string>
   <string name="permlab_wakeLock" product="tablet">Tablet vum Schlofen ofhalen</string>
   <string name="permlab_wakeLock" product="default">Telefon vum Schlofen ofhalen</string>
   <string name="permdesc_wakeLock" product="tablet">Erlaabt der App, den Tablet dorun ze hënneren an de Rouzoustand ze wiesselen.</string>
@@ -632,19 +647,22 @@
   <string name="permdesc_changeWifiMulticastState" product="tablet">Erlaabt der App, Päck z\'empfänken, déi iwwer Multicast-Adressen u sämtlech Apparaten an engem WLAN verschéckt ginn, net just un däin Tablet. Dat kascht méi Leeschtung wéi den Net-Multicast-Modus.</string>
   <string name="permdesc_changeWifiMulticastState" product="default">Erlaabt der App, Päck z\'empfänken, déi iwwer Multicast-Adressen u sämtlech Apparaten an engem WLAN verschéckt ginn, net just un däin Telefon. Dat kascht méi Leeschtung wéi den Net-Multicast-Modus.</string>
   <string name="permlab_bluetoothAdmin">Op d\'Bluetooth-Astellungen zougräifen</string>
-  <string name="permdesc_bluetoothAdmin" product="tablet">Erlaabt der App, Bluetooth um Tablet ze konfiguréieren, an anerer Apparaten z\'entdecken a Connectioune mat hinnen hierzestellen.</string>
-  <string name="permdesc_bluetoothAdmin" product="default">Erlaabt der App, Bluetooth um Telefon ze konfiguréieren, an anerer Apparaten z\'entdecken a Connectioune mat hinnen hierzestellen.</string>
-  <string name="permlab_bluetoothPriv">Hierstellung vu Connectioune mat Bluetooth-Connectiounen no App</string>
-  <string name="permdesc_bluetoothPriv" product="tablet">Erlaabt der App, sech mat Remote-Apparaten ouni Notzerinteraktioun ze verbannen.</string>
-  <string name="permdesc_bluetoothPriv" product="default">Erlaabt der App, sech mat Remote-Apparaten ouni Notzerinteraktioun ze verbannen.</string>
+  <string name="permdesc_bluetoothAdmin" product="tablet">Erlaabt der App, Bluetooth um Tablet ze konfiguréieren, an anerer Apparater z\'entdecken a Koppelunge mat hinnen hierzestellen.</string>
+  <string name="permdesc_bluetoothAdmin" product="default">Erlaabt der App, Bluetooth um Telefon ze konfiguréieren, an anerer Apparater z\'entdecken a Koppelunge mat hinnen hierzestellen.</string>
+  <string name="permlab_bluetoothPriv">Hierstellung vu Connectioune mat Bluetooth-Koppelungen no App</string>
+  <string name="permdesc_bluetoothPriv" product="tablet">Erlaabt der App, sech mat Remote-Apparater ouni Notzerinteraktioun ze koppelen.</string>
+  <string name="permdesc_bluetoothPriv" product="default">Erlaabt der App, sech mat Remote-Apparater ouni Notzerinteraktioun ze koppelen.</string>
   <string name="permlab_accessWimaxState">WiMAX-Connectioun hierstellen an trennen</string>
   <string name="permdesc_accessWimaxState">Erlaabt der App, festzestellen ob WiMAX aktivéiert ass an Informatiounen iwwer all WiMAX-Netzwierker déi connectéiert sinn.</string>
   <string name="permlab_changeWimaxState">WiMAX-Status änneren</string>
   <string name="permdesc_changeWimaxState" product="tablet">Erlaabt der App, den Tablet mat WiMAX-Netzwierker ze connectéieren an deconnectéieren.</string>
   <string name="permdesc_changeWimaxState" product="default">Erlaabt der App, den Telefon mat WiMAX-Netzwierker ze connectéieren an deconnectéieren.</string>
-  <string name="permlab_bluetooth">Mat Bluetooth-Apparate verbannen</string>
-  <string name="permdesc_bluetooth" product="tablet">Erlaabt der App, d\'Bluetooth-Konfiguratioun um Tablet ze liesen, a Connectioune mat verbonnenen Apparater hierzestellen.</string>
-  <string name="permdesc_bluetooth" product="default">Erlaabt der App, d\'Bluetooth-Konfiguratioun um Telefon ze liesen, a Connectioune mat verbonnenen Apparater hierzestellen.</string>
+  <string name="permlab_scoreNetworks">Netzwierker bewäerten</string>
+  <string name="permdesc_scoreNetworks" product="tablet">Erlaabt der App, Netzwierker ze bewäerten an ze beaflossen, wéi eng Netzwierker den Tablet preferéiere soll.</string>
+  <string name="permdesc_scoreNetworks" product="default">Erlaabt der App, Netzwierker ze bewäerten an ze beaflossen, wéi eng Netzwierker den Telefon preferéiere soll.</string>
+  <string name="permlab_bluetooth">Mat Bluetooth-Apparater koppelen</string>
+  <string name="permdesc_bluetooth" product="tablet">Erlaabt der App, d\'Bluetooth-Konfiguratioun um Tablet ze liesen, a Connectioune mat gekoppelten Apparater hierzestellen.</string>
+  <string name="permdesc_bluetooth" product="default">Erlaabt der App, d\'Bluetooth-Konfiguratioun um Telefon ze liesen, a Connectioune mat gekoppelten Apparater hierzestellen.</string>
   <string name="permlab_nfc">No-Feld-Communicatioun (NFC) kontrolléieren</string>
   <string name="permdesc_nfc">Erlaabt der App, iwwer No-Feld-Communicatioun (NFC) Badgen, Kaarten a Liesapparater ze kontrolléieren.</string>
   <string name="permlab_disableKeyguard">Schiermspär desaktivéieren</string>
@@ -679,10 +697,14 @@
   <string name="permdesc_sdcardAccessAll">Erlaabt der App, fir all Benotzer op den externe Späicher zouzegräifen.</string>
   <string name="permlab_cache_filesystem">Op den Tëschespäicher-Fichierssystem zougräifen</string>
   <string name="permdesc_cache_filesystem">Erlaabt der App, den Tëschespäicher-Fichierssystem ze liesen an ze schreiwen.</string>
+  <string name="permlab_use_sip">SIP-Uriff maachen/empfänken</string>
+  <string name="permdesc_use_sip">Erlaabt der App, SIP-Uriff ze maachen an entgéintzehuelen.</string>
   <string name="permlab_bind_incall_service">Mam Uruffschierm interagéieren</string>
   <string name="permdesc_bind_incall_service">Erlaabt der App, ze kontrolléiere wien a wéi de Benotzer den Uruffschierm gesäit.</string>
+  <string name="permlab_bind_connection_service">Mat Telefonsservicer interagéieren</string>
+  <string name="permdesc_bind_connection_service">Erlaabt der App, mat Telefonsservicer z\'interagéieren, fir Uriff ze maachen/z\'empfänken.</string>
   <string name="permlab_readNetworkUsageHistory">Historesch Netzwierkdate liesen</string>
-  <string name="permdesc_readNetworkUsageHistory">Erlaabt der App, historesch Netzwierknotzungsdate fir spezifesch Netzwierker an Appen ze liesen.</string>
+  <string name="permdesc_readNetworkUsageHistory">Erlaabt der App, historesch Netzwierkbenotzungsdate fir spezifesch Netzwierker an Appen ze liesen.</string>
   <string name="permlab_manageNetworkPolicy">Netzwierkrichtlinne verwalten</string>
   <string name="permdesc_manageNetworkPolicy">Erlaabt der App, Netzwierkrichtlinnen ze geréieren an App-spezifesch Regelen ze definéieren.</string>
   <string name="permlab_modifyNetworkAccounting">Statistike vun der Netzwierkbenotzung änneren</string>
@@ -691,10 +713,18 @@
   <string name="permdesc_accessNotifications">Erlaabt der App, Notifikatiounen z\'empfänken, z\'analyséieren an ze läschen, inklusiv deenen déi vun aneren Appe geschriwwe goufen.</string>
   <string name="permlab_bindNotificationListenerService">Un en Notifikatiouns-Lauschter-Service ubannen</string>
   <string name="permdesc_bindNotificationListenerService">Erlaabt der App, sech um ieweschten Niveau vun engem Notifikatiouns-Lauschter-Service unzebannen. Sollt ni fir normal Appen néideg sinn.</string>
+  <string name="permlab_bindConditionProviderService">Un e Konditiounsubidder-Service ubannen</string>
+  <string name="permdesc_bindConditionProviderService">Erlaabt der App, sech um ieweschten Niveau vun engem Konditiounsubidder-Service unzebannen. Sollt ni fir normal Appen néideg sinn.</string>
+  <string name="permlab_bindDreamService">Un en Dramservice ubannen</string>
+  <string name="permdesc_bindDreamService">Erlaabt der App, sech op ieweschtem Niveau un d\'Schnëttstell vun engem Dramservice unzebannen. Sollt ni fir normal Appen néideg sinn.</string>
   <string name="permlab_invokeCarrierSetup">Konfiguratiounsapp vum Provider opruffen</string>
   <string name="permdesc_invokeCarrierSetup">Erlaabt dem Besëtzer, d\'Konfiguratiounsapp vum Provider opzeruffen. Sollt ni fir normal Appen néideg sinn.</string>
   <string name="permlab_accessNetworkConditions">Informatiounen iwwer d\'Netzwierkkonditiounen offänken</string>
   <string name="permdesc_accessNetworkConditions">Erlaabt der App, Informatiounen zu den Netzwierkkonditiounen z\'erfaassen. Sollt ni fir normal Appen néideg sinn.</string>
+  <string name="permlab_accessDrmCertificates">Op DRM-Zertifikater zougräifen</string>
+  <string name="permdesc_accessDrmCertificates">Erlaabt enger App, op DRM-Zertifikater zouzegräifen a se ze provisionéieren. Sollt ni fir normal Appen néideg sinn.</string>
+  <string name="permlab_handoverStatus">Android-Beam-Iwwerdroungsstatus empfänken</string>
+  <string name="permdesc_handoverStatus">Erlaabt der App, Informatiounen iwwer aktuell Android-Beam-Iwwerdroungen z\'empfänken</string>
   <string name="permlab_removeDrmCertificates">DRM-Zertifikater läschen</string>
   <string name="permdesc_removeDrmCertificates">Erlaabt enger App, DRM-Zertifikater ze läschen. Sollt ni fir normal Appen néideg sinn.</string>
   <string name="policylab_limitPassword">Passwuertregelen definéieren</string>
@@ -845,7 +875,7 @@
   <string name="emergency_call_dialog_number_for_display">Noutruffnummer</string>
   <string name="lockscreen_carrier_default">Kee Service.</string>
   <string name="lockscreen_screen_locked">Schierm gespaart.</string>
-  <string name="lockscreen_instructions_when_pattern_enabled">Menü drécke fir z\'entspären oder en Noutruff ofzesetzen.</string>
+  <string name="lockscreen_instructions_when_pattern_enabled">Menü drécke fir z\'entspären oder en Noutruff ze maachen.</string>
   <string name="lockscreen_instructions_when_pattern_disabled">Menü drécke fir z\'entspären.</string>
   <string name="lockscreen_pattern_instructions">Muster zeechne fir z\'entspären</string>
   <string name="lockscreen_emergency_call">Noutruff</string>
@@ -1014,9 +1044,12 @@ Kontaktéier däi Provider fir eng aner SIM-Kaart ze kréien.</string>
   <string name="permdesc_writeHistoryBookmarks" product="default">Erlaabt der App, de Browser-Historique an d\'Liesezeechen déi op dengem Telefon gespäichert sinn z\'änneren. Dat kéint der App erméiglechen, Browser-Daten z\'änneren oder ze läschen. Hiwäis: dës Berechtegung gëtt eventuell net vu Browsere vun Drëtthiersteller oder aneren Appe mat Internetfäegkeete berücksichtegt.</string>
   <string name="permlab_setAlarm">Wecker stellen</string>
   <string name="permdesc_setAlarm">Erlaabt der App, e Wecker an enger installéierter Wecker-App ze setzen. Verschidde Wecker-Appen hunn dës Funktioun eventuell net implementéiert.</string>
+  <string name="permlab_writeVoicemail">Mailboxopname schreiwen</string>
+  <string name="permdesc_writeVoicemail">Erlaabt der App, Opname vun der Mailbox z\'änneren an ze läschen.</string>
   <string name="permlab_addVoicemail">Mailboxopnamen dobäisetzen</string>
   <string name="permdesc_addVoicemail">Erlaabt der App, Messagen op denger Mailbox ze späicheren.</string>
   <string name="permlab_readVoicemail">Mailbox liesen</string>
+  <string name="permdesc_readVoicemail">Erlaabt der App, Mailboxopnamen ze liesen.</string>
   <string name="permlab_writeGeolocationPermissions">Geolokaliséierungs-Berechtegunge vum Browser änneren</string>
   <string name="permdesc_writeGeolocationPermissions">Erlaabt der App, d\'Geolokaliséierungs-Berechtegunge vum Browser z\'änneren. Béisaarteg Appe kéinten dat benotze fir Standuertinformatiounen un arbiträr Websäiten ze schécken.</string>
   <string name="permlab_packageVerificationAgent">Päck iwwerpréiwen</string>
@@ -1176,6 +1209,7 @@ Wann \"Drécken an Endecken\" aktivéiert ass, kanns du Beschreiwungen vun Eleme
   <string name="editTextMenuTitle">Textaktiounen</string>
   <string name="low_internal_storage_view_title">De Späicher huet geschwë keng Plaz méi</string>
   <string name="low_internal_storage_view_text">E puer Systemfunktioune funktionéiere vläicht net</string>
+  <string name="low_internal_storage_view_text_no_boot">Net genuch Späicher fir de System. Stell sécher, datt de 250MB fräi Späicherplaz hues a start nei.</string>
   <string name="app_running_notification_title"><xliff:g id="app_name">%1$s</xliff:g> gëtt ausgeféiert</string>
   <string name="app_running_notification_text">Dréck fir méi Informatiounen
         oder fir d\'App unzehalen.</string>
@@ -1188,6 +1222,7 @@ Wann \"Drécken an Endecken\" aktivéiert ass, kanns du Beschreiwungen vun Eleme
   <string name="capital_on">UN</string>
   <string name="capital_off">AUS</string>
   <string name="whichApplication">Aktioun duerchféiere mat</string>
+  <string name="whichApplicationNamed">Aktioun mat %1$s ofschléissen</string>
   <string name="whichViewApplication">Opmaache mat</string>
   <string name="whichViewApplicationNamed">Opmaache mat %1$s</string>
   <string name="whichEditApplication">Ännere mat</string>
@@ -1267,7 +1302,7 @@ Wann \"Drécken an Endecken\" aktivéiert ass, kanns du Beschreiwungen vun Eleme
   <string name="wifi_watchdog_network_disabled">Konnt net mam WLAN connectéieren</string>
   <string name="wifi_watchdog_network_disabled_detailed">\u0020huet eng schwaach Internetconnectioun.</string>
   <string name="wifi_p2p_dialog_title">Wi-Fi Direct</string>
-  <string name="wifi_p2p_turnon_message">Wi-Fi Direct starten. De WLAN-Hotspot gëtt doduerch ausgeschalt.</string>
+  <string name="wifi_p2p_turnon_message">Wi-Fi Direct starten. De WLAN-Zougankspunkt gëtt doduerch ausgeschalt.</string>
   <string name="wifi_p2p_failed_message">Konnt Wi-Fi Direct net starten.</string>
   <string name="wifi_p2p_enabled_notification_title">Wi-Fi Direct ass un</string>
   <string name="wifi_p2p_enabled_notification_message">Dréck fir d\'Astellungen</string>
@@ -1287,6 +1322,8 @@ Wann \"Drécken an Endecken\" aktivéiert ass, kanns du Beschreiwungen vun Eleme
   <string name="sms_control_yes">Erlaben</string>
   <string name="sms_control_no">Verweigeren</string>
   <string name="sms_short_code_confirm_message">&lt;b&gt;<xliff:g id="app_name">%1$s</xliff:g>&lt;/b&gt; wëll e Message un &lt;b&gt;<xliff:g id="dest_address">%2$s</xliff:g>&lt;/b&gt; schécken.</string>
+  <string name="sms_short_code_details">Doduerch <b>kënne Käschten op denger Mobilrechnung</b> entstoen.</string>
+  <string name="sms_premium_short_code_details"><b>Doduerch entsti Käschten op dengem Mobilabo.</b></string>
   <string name="sms_short_code_confirm_allow">Schécken</string>
   <string name="sms_short_code_confirm_deny">Ofbriechen</string>
   <string name="sms_short_code_remember_choice">Mäi Choix verhalen</string>
@@ -1294,8 +1331,10 @@ Wann \"Drécken an Endecken\" aktivéiert ass, kanns du Beschreiwungen vun Eleme
   <string name="sms_short_code_confirm_always_allow">Ëmmer erlaben</string>
   <string name="sms_short_code_confirm_never_allow">Ni erlaben</string>
   <string name="sim_removed_title">SIM-Kaart erausgeholl</string>
+  <string name="sim_removed_message">D\'Mobilnetzwierk ass net disponibel bis de eng gëlteg SIM-Kaart asetz an nei starts.</string>
   <string name="sim_done_button">Fäerdeg</string>
   <string name="sim_added_title">SIM-Kaart dobäigesat</string>
+  <string name="sim_added_message">Start den Handy nei fir op d\'Mobilnetz zouzegräifen.</string>
   <string name="sim_restart_button">Nei starten</string>
   <string name="time_picker_dialog_title">Zäit setzen</string>
   <string name="date_picker_dialog_title">Datum setzen</string>
@@ -1380,6 +1419,18 @@ Wann \"Drécken an Endecken\" aktivéiert ass, kanns du Beschreiwungen vun Eleme
   <string name="permdesc_access_keyguard_secure_storage">Erlaabt der App, op de séchere Späicher vun der Tastespär zouzegräifen.</string>
   <string name="permlab_control_keyguard">Uweisen an Ausblende vun der Tastespär steieren</string>
   <string name="permdesc_control_keyguard">Erlaabt der App, d\'Tastespär ze steieren.</string>
+  <string name="permlab_provide_trust_agent">Vertrauensagent zur Verfügung stellen</string>
+  <string name="permdesc_provide_trust_agent">Erlaabt enger App, e Vertrauensagent zur Verfügung ze stellen.</string>
+  <string name="permlab_launch_trust_agent_settings">Menü fir d\'Vertrauensagentenastellunge starten</string>
+  <string name="permdesc_launch_trust_agent_settings">Erlaabt enger App, eng Aktivitéit ze starten, déi d\'Behuele vum Vertrauensagent beaflosst.</string>
+  <string name="permlab_bind_trust_agent_service">Mat engem Vertrauensagenteservice verbannen</string>
+  <string name="permdesc_bind_trust_agent_service">Erlaabt enger App, sech mat engem Vertrauensagenteservice ze verbannen.</string>
+  <string name="permlab_recovery">Mam Aktualiséierungs- a Recuperatiounssystem interagéieren</string>
+  <string name="permdesc_recovery">Erlaabt enger App, mam Recuperatiounssystem an d\'Systemaktualiséierungen z\'interagéieren.</string>
+  <string name="permlab_manageMediaProjection">Medieprojektiounssëtzunge geréieren</string>
+  <string name="permdesc_manageMediaProjection">Erlaabt der App, Medieprojektiounssëtzungen ze geréieren. Dës Sëtzunge kënnen Appen d\'Fäegkeet ginn, de Schierminhalt zesumme mat Toundaten opzehuelen. Sollt ni fir normal Appen néideg sinn.</string>
+  <string name="permlab_readInstallSessions">Installatiounssëtzunge liesen</string>
+  <string name="permdesc_readInstallSessions">Erlaabt der App, Installatiounssëtzungen ze liesen. Dat erméiglecht der App, Detailer iwwer Päck ze gesinn, déi grad installéiert ginn.</string>
   <string name="tutorial_double_tap_to_zoom_message_short">Zweemol drécke fir d\'Zoomastellungen</string>
   <string name="gadget_host_error_inflating">Konnt de Widget net dobäisetzen.</string>
   <string name="ime_action_go">Lass</string>
@@ -1398,12 +1449,15 @@ Wann \"Drécken an Endecken\" aktivéiert ass, kanns du Beschreiwungen vun Eleme
   <string name="deny">Verweigeren</string>
   <string name="permission_request_notification_title">Erlabnësufro</string>
   <string name="permission_request_notification_with_subtitle">Erlabnës ugefrot\nfir de Kont <xliff:g id="account" example="foo@gmail.com">%s</xliff:g>.</string>
+  <string name="forward_intent_to_owner">Du benotz dës App ausserhalb vun dengem Aarbechtsprofil</string>
+  <string name="forward_intent_to_work">Du benotz dës App an dengem Aarbechtsprofil</string>
   <string name="input_method_binding_label">Method fir anzeginn</string>
   <string name="sync_binding_label">Sync</string>
   <string name="accessibility_binding_label">Accessibilitéit</string>
   <string name="wallpaper_binding_label">Hannergrondbild</string>
   <string name="chooser_wallpaper">Hannergrondbild änneren</string>
   <string name="notification_listener_binding_label">Notifikatiouns-Nolauschterer</string>
+  <string name="condition_provider_service_binding_label">Konditiounsubidder</string>
   <string name="vpn_title">VPN aktivéiert</string>
   <string name="vpn_title_long">VPN ass aktivéiert vum <xliff:g id="app" example="FooVPN client">%s</xliff:g></string>
   <string name="vpn_text">Dréck fir d\'Netzwierk ze geréieren.</string>
@@ -1579,6 +1633,7 @@ Wann \"Drécken an Endecken\" aktivéiert ass, kanns du Beschreiwungen vun Eleme
   <string name="kg_sim_unlock_progress_dialog_message">D\'SIM-Kaart gëtt entspaart\u2026</string>
   <string name="kg_password_wrong_pin_code">Falsche PIN-Code.</string>
   <string name="kg_invalid_sim_pin_hint">Gëff e PIN an, deen tëscht 4 an 8 Zifferen huet.</string>
+  <string name="kg_invalid_sim_puk_hint">De PUK-Code sollt 8 Ziffere laang sinn.</string>
   <string name="kg_invalid_puk">Gëff de korrekte PUK-Code nees an. Bei widderhuelende Versich gëtt d\'SIM permanent desaktivéiert.</string>
   <string name="kg_invalid_confirm_pin_hint" product="default">D\'PIN-Codë stëmmen net iwwereneen</string>
   <string name="kg_login_too_many_attempts">Zevill Muster-Versich</string>
@@ -1608,6 +1663,7 @@ Wann \"Drécken an Endecken\" aktivéiert ass, kanns du Beschreiwungen vun Eleme
   <string name="user_switching_message">Wiesselen op de Benotzer <xliff:g id="name" example="Bob">%1$s</xliff:g>\u2026</string>
   <string name="owner_name" msgid="3879126011135546571">Besëtzer</string>
   <string name="error_message_title">Feeler</string>
+  <string name="error_message_change_not_allowed">Dës Ännerung ass duerch däin Administrateur net erlaabt</string>
   <string name="app_not_found">Et gouf keng Applikatioun fonnt fir dës Aktioun auszeféieren</string>
   <string name="revoke">Zréckzéien</string>
   <string name="mediasize_iso_a0">ISO A0</string>
@@ -1715,8 +1771,11 @@ Wann \"Drécken an Endecken\" aktivéiert ass, kanns du Beschreiwungen vun Eleme
   <string name="restr_pin_try_later">Probéier méi spéit nees</string>
   <string name="immersive_mode_confirmation" msgid="8554991488096662508">Wësch vum ieweschte Bildschiermrand erof fir de Vollbildmodus ze verloossen.</string>
   <string name="done_label">Fäerdeg</string>
+  <string name="hour_picker_description">Kreesfërmege Regeler fir Stonnen</string>
+  <string name="minute_picker_description">Kreesfërmege Regeler fir Minutten</string>
   <string name="select_hours">Stonnen auswielen</string>
   <string name="select_minutes">Minutten auswielen</string>
+  <string name="day_picker_description">Ganze Mount mat eenzelen Deeg</string>
   <string name="year_picker_description">Jorelëscht</string>
   <string name="select_day">Mount an Dag auswielen</string>
   <string name="select_year">Joer auswielen</string>
@@ -1724,8 +1783,19 @@ Wann \"Drécken an Endecken\" aktivéiert ass, kanns du Beschreiwungen vun Eleme
   <string name="deleted_key"><xliff:g id="key" example="4">%1$s</xliff:g> geläscht</string>
   <string name="managed_profile_label_badge"><xliff:g id="label" example="Email">%1$s</xliff:g> (Aarbecht)</string>
   <string name="time_placeholder">--</string>
+  <string name="lock_to_app_toast">Hal \"Zréck\" an \"Iwwersiicht\" matenee gedréckt fir dëse Schierm fräizeginn.</string>
+  <string name="lock_to_app_toast_accessible">Hal \"Iwwersiicht\" gedréckt fir dëse Schierm fräizeginn.</string>
+  <string name="lock_to_app_toast_locked">Schierm ass fixéiert. E fräizeginn ass duerch den Organisatioun net erlaabt.</string>
+  <string name="lock_to_app_title">Schiermfixéierung benotzen?</string>
+  <string name="lock_to_app_description">D\'Schiermfixéierung blockéiert de Schierm an enger eenzelner Usiicht.\n\nFir e fräizeginn, hal \"Zréck\" an \"Iwwersiicht\" matenee gedréckt.</string>
+  <string name="lock_to_app_description_accessible">D\'Schiermfixéierung blockéiert de Schierm an enger eenzelner Usiicht.\n\nFir e fräizeginn, dréck hal \"Iwwersiicht\" gedréckt.</string>
   <string name="lock_to_app_negative">NEE, MERCI</string>
   <string name="lock_to_app_positive">START</string>
+  <string name="lock_to_app_start">Schierm fixéiert</string>
+  <string name="lock_to_app_exit">Schierm fräiginn</string>
+  <string name="lock_to_app_unlock_pin">E PIN froe fir e Schierm fräizeginn</string>
+  <string name="lock_to_app_unlock_pattern">En Entspärmuster froe fir e Schierm fräizeginn</string>
+  <string name="lock_to_app_unlock_password">E Passwuert froe fir e Schierm fräizeginn</string>
   <plurals name="zen_mode_duration_minutes">
     <item quantity="one">Fir eng Minutt</item>
     <item quantity="other">Fir %d Minutten</item>
@@ -1734,4 +1804,5 @@ Wann \"Drécken an Endecken\" aktivéiert ass, kanns du Beschreiwungen vun Eleme
     <item quantity="one">Fir eng Stonn</item>
     <item quantity="other">Fir %d Stonnen</item>
   </plurals>
+  <string name="zen_mode_forever">Fir ëmmer</string>
 </resources>

@@ -101,4 +101,5 @@
   <string name="account_setup_options_mail_window_all">All</string>
   <string name="auth_error_notification_title">Authentifizéierungsfeeler</string>
   <string name="auth_error_notification_text">Drécke fir d\'Kontenastellunge fir <xliff:g id="account">%s</xliff:g> z\'änneren</string>
+  <string name="email_settings_not_available">E-Mail-App reaktivéiere fir d\'Astellungen ze gesinn.</string>
 </resources>

@@ -26,6 +26,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="spoken_accented_letter_00AA">Weiblecht Uerdnungszeechen</string>
   <string name="spoken_accented_letter_00B5">Mikrozeechen</string>
+  <string name="spoken_accented_letter_00BA">Männlecht Uerdnungszeechen</string>
   <string name="spoken_accented_letter_00DF">Schaarfen S</string>
   <string name="spoken_accented_letter_00E0">A mat Accent grave</string>
   <string name="spoken_accented_letter_00E1">A mat Accent aigu</string>
@@ -33,6 +34,7 @@
   <string name="spoken_accented_letter_00E3">A mat Well</string>
   <string name="spoken_accented_letter_00E4">A mat Trema</string>
   <string name="spoken_accented_letter_00E5">A mat Rank driwwer</string>
+  <string name="spoken_accented_letter_00E6">AE-Ligatur</string>
   <string name="spoken_accented_letter_00E7">C mat Cedille</string>
   <string name="spoken_accented_letter_00E8">E mat Accent grave</string>
   <string name="spoken_accented_letter_00E9">E mat Accent aigu</string>
@@ -82,6 +84,7 @@
   <string name="spoken_accented_letter_012D">I mat Brevis</string>
   <string name="spoken_accented_letter_012F">I mat Ogonek</string>
   <string name="spoken_accented_letter_0131">Punktlosen I</string>
+  <string name="spoken_accented_letter_0133">IJ-Ligatur</string>
   <string name="spoken_accented_letter_0135">J mat Hittchen</string>
   <string name="spoken_accented_letter_0137">K mat Cedille</string>
   <string name="spoken_accented_letter_0138">Kra</string>
@@ -98,6 +101,7 @@
   <string name="spoken_accented_letter_014D">O mat Makron</string>
   <string name="spoken_accented_letter_014F">O mat Brevis</string>
   <string name="spoken_accented_letter_0151">O mat duebelem Accent aigu</string>
+  <string name="spoken_accented_letter_0153">OE-Ligatur</string>
   <string name="spoken_accented_letter_0155">R mat Accent aigu</string>
   <string name="spoken_accented_letter_0157">R mat Cedille</string>
   <string name="spoken_accented_letter_0159">R mat Hatschek</string>
@@ -170,4 +174,33 @@
   <string name="spoken_accented_letter_1EF5">Y mat Punkt drënner</string>
   <string name="spoken_accented_letter_1EF7">Y mat Krop driwwer</string>
   <string name="spoken_accented_letter_1EF9">Y mat Well</string>
+  <string name="spoken_symbol_00A1">Ëmgedréint Ausruffzeechen</string>
+  <string name="spoken_symbol_00AB">Lénks Guillemeten</string>
+  <string name="spoken_symbol_00B7">Punkt an der Mëtt</string>
+  <string name="spoken_symbol_00B9">Héichgestallten Eent</string>
+  <string name="spoken_symbol_00BB">Riets Guillemeten</string>
+  <string name="spoken_symbol_00BF">Ëmgedréint Frozeechen</string>
+  <string name="spoken_symbol_2018">Einfach lénks Gänseféisecher</string>
+  <string name="spoken_symbol_2019">Einfach riets Gänseféisecher</string>
+  <string name="spoken_symbol_201A">Einfach lénks Gänseféisecher ënnen</string>
+  <string name="spoken_symbol_201C">Duebel lénks Gänseféisecher</string>
+  <string name="spoken_symbol_201D">Duebel riets Gänseféisecher</string>
+  <string name="spoken_symbol_2020">Kräiz</string>
+  <string name="spoken_symbol_2021">Duebelkräiz</string>
+  <string name="spoken_symbol_2030">Promill-Zeechen</string>
+  <string name="spoken_symbol_2032">Minuttenzeechen</string>
+  <string name="spoken_symbol_2033">Sekonnenzeechen</string>
+  <string name="spoken_symbol_2039">Einfach lénksgedréinte Wénkel-Gänseféisecher</string>
+  <string name="spoken_symbol_203A">Einfach rietsgedréinte Wénkel-Gänseféisecher</string>
+  <string name="spoken_symbol_2074">Héichgestallt Véier</string>
+  <string name="spoken_symbol_207F">Héichgestallte klenge Buschtaf N</string>
+  <string name="spoken_symbol_20B1">Peso-Zeechen</string>
+  <string name="spoken_symbol_2105">\"care of\"-Zeechen</string>
+  <string name="spoken_symbol_2192">Feil no riets</string>
+  <string name="spoken_symbol_2193">Feil no ënnen</string>
+  <string name="spoken_symbol_2205">Eidel Grupp</string>
+  <string name="spoken_symbol_2206">Erhéijen</string>
+  <string name="spoken_symbol_2264">Méi kleng oder gläich</string>
+  <string name="spoken_symbol_2265">Méi grouss oder gläich</string>
+  <string name="spoken_symbol_2605">Schwaarze Stär</string>
 </resources>

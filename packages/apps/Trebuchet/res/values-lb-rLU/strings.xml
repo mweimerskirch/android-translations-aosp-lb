@@ -22,6 +22,7 @@
   <string name="home">Startschierm</string>
   <string name="uid_name">Kär-Appe vun Android</string>
   <string name="activity_not_found">D\'App ass net installéiert.</string>
+  <string name="safemode_shortcut_error">Erofgelueden App am séchere Modus desaktivéiert</string>
   <string name="widgets_tab_label">Widgeten</string>
   <string name="widget_adder">Widgeten</string>
   <string name="toggle_weight_watcher">Späicher uweisen</string>
@@ -74,6 +75,7 @@
   <string name="permlab_write_settings">Startschierm-Astellungen an Ofkierzunge schreiwen</string>
   <string name="permdesc_write_settings">Erlaabt der App, d\'Startschierm-Astellungen an -Ofkierzungen z\'änneren.</string>
   <string name="gadget_error_text">Problem beim Luede vum Widget</string>
+  <string name="gadget_setup_text">Astellen</string>
   <string name="uninstall_system_app_text">Dëst ass eng System-App a kann net desinstalléiert ginn.</string>
   <string name="dream_name">Rocket Launcher</string>
   <string name="folder_hint_text">Onbenannten Dossier</string>
@@ -91,6 +93,9 @@
   <string name="migration_cling_use_default">FRËSCH UFÄNKEN</string>
   <string name="workspace_cling_title">Aarbechtsberäich organiséieren</string>
   <string name="workspace_cling_move_item">Hannergrond drécken an halen, fir d\'Hannergrondbiller, Widgeten an Astellungen ze geréieren.</string>
+  <string name="workspace_cling_longpress_title">Hannergrondbiller, Widgeten an Astellungen</string>
+  <string name="workspace_cling_longpress_description">Hannergrond drécken an hale fir unzepassen</string>
+  <string name="workspace_cling_longpress_dismiss">OK</string>
   <string name="folder_cling_title">Hei ass en Dossier</string>
   <string name="folder_cling_create_folder">Dréck an hal eng App, an da réckel s\'iwwer eng aner, fir en Dossier z\'erstellen.</string>
   <string name="cling_dismiss">OK</string>
@@ -104,6 +109,15 @@
   <string name="widget_button_text">Widgeten</string>
   <string name="wallpaper_button_text">Hannergrondbiller</string>
   <string name="settings_button_text">Astellungen</string>
+  <string name="manage_apps_button_text">Appen</string>
+  <string name="package_state_enqueued">Waarden</string>
+  <string name="package_state_downloading">Gëtt erofgelueden</string>
+  <string name="package_state_installing">Installatioun leeft</string>
+  <string name="package_state_unknown">Onbekannt</string>
+  <string name="package_state_error">Net erëmhiergestallt</string>
+  <string name="abandoned_clean_all">All ewechhuelen</string>
+  <string name="abandoned_clean_this">Ewechhuelen</string>
   <string name="abandoned_search">Sichen</string>
   <string name="abandoned_promises_title">Dës App ass net installéiert</string>
+  <string name="abandoned_promise_explanation">D\'App fir dëst Symbol ass net installéiert. Du kanns et läschen, oder no der App sichen a se manuell installéieren.</string>
 </resources>

@@ -42,6 +42,7 @@
   <string name="exit">Verloossen</string>
   <string name="history">Historique</string>
   <string name="reset">Zrécksetzen</string>
+  <string name="history_original">@string/original</string>
   <string name="imageState">Applizéiert Effekter</string>
   <string name="compare_original">Vergläichen</string>
   <string name="apply_effect">Applizéieren</string>

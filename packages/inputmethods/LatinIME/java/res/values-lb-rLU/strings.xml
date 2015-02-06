@@ -25,6 +25,9 @@
   <string name="vibrate_on_keypress">Vibratioun bei Tastendrock</string>
   <string name="sound_on_keypress">Toun bei Tastendrock</string>
   <string name="popup_on_keypress">Pop-Up bei Tastendrock</string>
+  <string name="settings_screen_preferences">Preferenzen</string>
+  <string name="settings_screen_appearance">Usiicht a Layouten</string>
+  <string name="settings_screen_multilingual">Méisproochegkeetsoptiounen</string>
   <string name="settings_screen_gesture">Agi mat Gesten</string>
   <string name="settings_screen_correction">Textverbesserung</string>
   <string name="settings_screen_advanced">Erweidert</string>
@@ -66,7 +69,10 @@
   <string name="gesture_preview_trail">Gestespur uweisen</string>
   <string name="gesture_floating_preview_text">Dynamesch schwiewend Virschau</string>
   <string name="gesture_floating_preview_text_summary">Dat virgeschloent Wuert während dem Gest uweisen</string>
+  <string name="gesture_space_aware">Phrasebeweegung</string>
+  <string name="gesture_space_aware_summary">Espacen duerch eng Beweegung op d\'Espace-Tast aginn</string>
   <string name="voice_input">Tast fir d\'Sprooch anzeginn</string>
+  <string name="voice_input_disabled_summary">Keng Methode fir iwwer d\'Stëmm anzeginn aktivéiert. Kontrolléier d\'Astellungen ënner \"Sprooch an Agab\".</string>
   <string name="configure_input_method">Methode fir anzeginn konfiguréieren</string>
   <string name="language_selection_title">Sproochen</string>
   <string name="help_and_feedback">Hëllef a Feedback</string>
@@ -78,6 +84,9 @@
   <string name="subtype_en_GB">Englesch (Groussbritannien)</string>
   <string name="subtype_en_US">Englesch (USA)</string>
   <string name="subtype_es_US">Spuenesch (US)</string>
+  <string name="subtype_with_layout_en_GB">Englesch (UK) (<xliff:g id="KEYBOARD_LAYOUT" example="QWERTY">%s</xliff:g>)</string>
+  <string name="subtype_with_layout_en_US">Englesch (US) (<xliff:g id="KEYBOARD_LAYOUT" example="QWERTY">%s</xliff:g>)</string>
+  <string name="subtype_with_layout_es_US">Spuenesch (US) (<xliff:g id="KEYBOARD_LAYOUT" example="QWERTY">%s</xliff:g>)</string>
   <string name="subtype_generic_traditional"><xliff:g id="LANGUAGE_NAME" example="Nepali">%s</xliff:g> (Traditionell)</string>
   <string name="subtype_generic_cyrillic"><xliff:g id="LANGUAGE_NAME" example="Serbian">%s</xliff:g> (Kyrillesch)</string>
   <string name="subtype_generic_latin"><xliff:g id="LANGUAGE_NAME" example="Serbian">%s</xliff:g> (Latäin)</string>
@@ -110,6 +119,8 @@
   <string name="setup_next_action">Nächste Schrëtt</string>
   <string name="setup_steps_title">"<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g> installéieren"</string>
   <string name="setup_step1_title">"<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g> aktivéieren"</string>
+  <string name="setup_step1_instruction">"Wiel w.e.g. \"<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>\" an dengen Astellunge fir \"Sprooch an Agab\" aus, fir datt d'App op dengem Apparat ka lafen."</string>
+  <string name="setup_step1_finished_instruction">"<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g> ass schonn an dengen Astellunge fir \"Sprooch an Agab\" aktivéiert, also ass dëse Schrëtt fäerdeg. Weider bei den nächsten!"</string>
   <string name="setup_step1_action">An den Astellungen aktivéieren</string>
   <string name="setup_step2_title">"Op <xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g> wiesselen"</string>
   <string name="setup_step2_instruction">"Wiel als nächst \"<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>\" als deng aktiv Method fir anzeginn aus."</string>
@@ -145,8 +156,11 @@
   <string name="install_dict">Installéieren</string>
   <string name="cancel_download_dict">Ofbriechen</string>
   <string name="delete_dict">Läschen</string>
+  <string name="download_over_metered">Elo eroflueden (<xliff:g id="SIZE_IN_MEGABYTES" example="0.7">%1$.1f</xliff:g>MB)</string>
   <string name="do_not_download_over_metered">Iwwer WLAN eroflueden</string>
+  <string name="dict_available_notification_title">Fir <xliff:g id="LANGUAGE_NAME" example="English">%1$s</xliff:g> ass en Dictionnaire disponibel</string>
   <string name="dict_available_notification_description">Dréck fir ze liesen an erofzelueden</string>
+  <string name="toast_downloading_suggestions">Lueden erof: Virschléi fir <xliff:g id="LANGUAGE_NAME" example="English">%1$s</xliff:g> si geschwënn disponibel.</string>
   <string name="version_text">Versioun <xliff:g id="VERSION_NUMBER" example="1.0.1864.643521">%1$s</xliff:g></string>
   <string name="user_dict_settings_add_menu_title">Dobäisetzen</string>
   <string name="user_dict_settings_add_dialog_title">An den Dictionnaire setzen</string>

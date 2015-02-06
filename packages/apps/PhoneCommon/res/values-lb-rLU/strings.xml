@@ -61,4 +61,5 @@
   <string name="callFailed_dsac_restricted_emergency">Noutriff ginn duerch d\'Zougrëffssteierung begrenzt.</string>
   <string name="callFailed_dsac_restricted_normal">Normal Uriff ginn duerch d\'Zougrëffssteierung begrenzt.</string>
   <string name="callFailed_unobtainable_number">Ongëlteg Nummer</string>
+  <string name="incall_error_missing_voicemail_number">Mailbox-Nummer onbekannt.</string>
 </resources>

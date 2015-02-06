@@ -28,7 +28,6 @@
   <string name="keyguard_password_enter_password_code">Passwuert agi fir z\'entspären</string>
   <string name="keyguard_password_enter_pin_password_code">PIN agi fir z\'entspären</string>
   <string name="keyguard_password_wrong_pin_code">Falsche PIN-Code.</string>
-  <string name="lockscreen_sim_error_message_short">Ongëlteg Kaart.</string>
   <string name="keyguard_label_text">Menü an dann 0 drécke fir z\'entspären.</string>
   <string name="faceunlock_multiple_failures">Maximal Unzuel u Versich fir mam Gesiicht z\'entspären iwwerschratt</string>
   <string name="keyguard_charged">Opgelueden</string>

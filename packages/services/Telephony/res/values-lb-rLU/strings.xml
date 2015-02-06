@@ -51,18 +51,38 @@
   <string name="requesting_unlock">Netzwierkentspärung gëtt ugefrot\u2026</string>
   <string name="unlock_failed">Netzwierkentspärung net erfollegräich.</string>
   <string name="unlock_success">Netzwierkentspärung erfollegräich.</string>
+  <string name="mobile_network_settings_not_available">Mobil Netzwierkastellunge sinn net fir dëse Benotzer disponibel</string>
   <string name="labelGSMMore">GSM-Uruffastellungen</string>
   <string name="labelCDMAMore">CDMA-Uruffastellungen</string>
   <string name="apn_settings">Zougangspunkten (APNen)</string>
   <string name="settings_label">Netzwierkastellungen</string>
+  <string name="phone_accounts">Astellunge vum Telefonskont</string>
+  <string name="phone_accounts_make_calls_with">Uruffe mat</string>
+  <string name="phone_accounts_make_sip_calls_with">SIP-Uriff maache mat</string>
+  <string name="phone_accounts_ask_every_time">Fir d\'éischt froen</string>
   <string name="phone_accounts_accounts_header">Konten</string>
   <string name="phone_accounts_choose_accounts">Konten auswielen</string>
   <string name="phone_accounts_selection_header">Telefonskonten</string>
+  <string name="phone_accounts_add_sip_account">SIP-Kont dobäisetzen</string>
+  <string name="phone_accounts_configure_account_settings">Kontenastellunge konfiguréieren</string>
+  <string name="phone_account_wifi_calling">WLAN-Uriff</string>
+  <string name="wifi_calling_do_not_use">Keng WLAN-Uriff benotzen</string>
+  <string name="wifi_calling_do_not_use_call_assistant">Uruffassistent net benotzen</string>
   <string name="wifi_calling_call_assistant_none">Keen</string>
+  <string name="wifi_calling_call_assistant">Uruffassistent</string>
+  <string name="wifi_calling_use_call_assistant">Uruffassistent benotzen</string>
+  <string name="wifi_calling_select_call_assistant">Uruffassistent auswielen</string>
+  <string name="wifi_calling_select_call_assistant_summary">Wiel eng App oder e Service fir d\'Gestioun vun den Netzwierker déi fir Uriff benotzt ginn</string>
+  <string name="wifi_calling_use_call_assistant_summary">Appen oder Servicer d\'Netzwierker geréiere loossen déi fir Uriff gebraucht ginn</string>
   <string name="wifi_calling_call_assistant_configure">Astellen</string>
+  <string name="wifi_calling_call_assistant_configure_no_selection">Uruffassistent aus</string>
+  <string name="connection_service_default_label">Agebaute Connectiounsservice</string>
   <string name="voicemail">Sproochopnam</string>
   <string name="voicemail_abbreviated">AB:</string>
   <string name="networks">Netzwierkprovideren</string>
+  <string name="cell_broadcast_settings">Noutruff-Iwwerdroungen</string>
+  <string name="phone_account_settings">Astellunge vum Telefonskont</string>
+  <string name="call_settings">Uruffastellungen</string>
   <string name="additional_gsm_call_settings">Zousätzlech Astellungen</string>
   <string name="sum_gsm_call_settings">Zousätzlech Astellunge fir Uriff just iwwer GSM</string>
   <string name="additional_cdma_call_settings">Zousätzlech Astellunge fir Uriff iwwer CDMA</string>
@@ -87,10 +107,14 @@
   <string name="labelCFB">Wa besat</string>
   <string name="messageCFB">Nummer wa besat</string>
   <string name="sum_cfb_enabled">Weiderleeden u(n) <xliff:g id="phonenumber" example="555-1212">{0}</xliff:g></string>
+  <string name="sum_cfb_disabled">Aus</string>
   <string name="disable_cfb_forbidden">Däi Provider erlaabt et net d\'Weiderleedung auszeschalte wann deng Nummer besat ass.</string>
+  <string name="labelCFNRy">Wann onbeäntwert</string>
   <string name="messageCFNRy">Nummer wann net beäntwert</string>
   <string name="sum_cfnry_enabled">Weiderleeden u(n) <xliff:g id="phonenumber" example="555-1212">{0}</xliff:g></string>
+  <string name="sum_cfnry_disabled">Aus</string>
   <string name="disable_cfnry_forbidden">Däi Provider erlaabt et net d\'Weiderleedung auszeschalte wann s du den Uruff net beäntwers.</string>
+  <string name="labelCFNRc">Wann net erreechbar</string>
   <string name="messageCFNRc">Nummer wann net erreechbar</string>
   <string name="sum_cfnrc_enabled">Weiderleeden u(n) <xliff:g id="phonenumber" example="555-1212">{0}</xliff:g></string>
   <string name="sum_cfnrc_disabled">Desaktivéiert</string>
@@ -119,6 +143,7 @@
   <string name="fw_get_in_vm_failed">Déi aktuell Astellunge fir d\'Weiderleedungsnummer kënnen net ofgeruff a gespäichert ginn.\nWëlls du trotzdeem bei deen anere Provider wiesselen?</string>
   <string name="no_change">Keng Ännerunge goufe gemaach.</string>
   <string name="sum_voicemail_choose_provider">Mailbox-Service auswielen</string>
+  <string name="voicemail_default">Däi Provider</string>
   <string name="mobile_networks">Astellunge vum mobilen Netzwierk</string>
   <string name="label_available">Disponibel Netzwierker</string>
   <string name="load_networks_progress">Gëtt gesicht\u2026</string>
@@ -166,7 +191,10 @@
     <item>just GSM</item>
     <item>GSM/WCDMA preferéiert</item>
   </string-array>
+  <string name="enhanced_4g_lte_mode_title">Erweiderte 4G-LTE-Modus</string>
+  <string name="enhanced_4g_lte_mode_summary">LTE-Servicer benotzen, fir d\'Stëmm- an aner Kommunikatiounen ze verbesseren (recommendéiert)</string>
   <string name="data_enabled">Daten aktivéiert</string>
+  <string name="data_enable_summary">Datebenotzung erlaben</string>
   <string name="roaming">Dateroaming</string>
   <string name="roaming_enable">Beim Roaming d\'Connectioun mat Dateservicer zouloossen</string>
   <string name="roaming_disable">Beim Roaming d\'Connectioun mat Dateservicer zouloossen</string>
@@ -184,6 +212,7 @@
   <string name="throttle_data_rate_reduced_subtext"><xliff:g id="used">%1$s</xliff:g> Maximum iwwerschratt\nDen Datentaux gouf op <xliff:g id="used">%2$d</xliff:g> kb/s reduzéiert</string>
   <string name="throttle_time_frame_subtext"><xliff:g id="used">%1$d</xliff:g>\u066A vum Zyklus ofgelaf\nDéi nächst Period start a(n) <xliff:g id="used">%2$d</xliff:g> Deeg (<xliff:g id="used">%3$s</xliff:g>)</string>
   <string name="throttle_rate_subtext">Den Datentaux gëtt op <xliff:g id="used">%1$d</xliff:g> kb/s reduzéiert wann d\'Datebenotzungslimitt iwwerschratt ass</string>
+  <string name="throttle_help_subtext">Méi Informatiounen iwwer d\'Richtlinne vum Netzbedreiwer fir d\'Benotzung vun de Mobilfunknetzdaten</string>
   <string name="cell_broadcast_sms">Zell-Iwwerdroungs-SMS</string>
   <string name="enable_disable_cell_bc_sms">Zell-Iwwerdroungs-SMS</string>
   <string name="cell_bc_sms_enable">Zell-Iwwerdroungs-SMS aktivéiert</string>
@@ -391,8 +420,8 @@
   <string name="notification_ongoing_call">Uruff am Gaang</string>
   <string name="notification_on_hold">Gehalen</string>
   <string name="notification_incoming_call">Erakommenden Uruff</string>
-  <string name="notification_voicemail_title">Nei Mailbox-Opnam</string>
-  <string name="notification_voicemail_title_count">Nei Mailbox-Opnamen (<xliff:g id="count">%d</xliff:g>)</string>
+  <string name="notification_voicemail_title">Nei Mailboxopnam</string>
+  <string name="notification_voicemail_title_count">Nei Mailboxopnamen (<xliff:g id="count">%d</xliff:g>)</string>
   <string name="notification_voicemail_text_format"><xliff:g id="voicemail_number">%s</xliff:g> uruffen</string>
   <string name="notification_voicemail_no_vm_number">Mailbox-Nummer onbekannt</string>
   <string name="notification_network_selection_title">Kee Service</string>
@@ -402,6 +431,7 @@
   <string name="notification_missedCall_message">Message schécken</string>
   <string name="incall_error_power_off">Desaktivéier de Fligermodus, fir unzeruffen.</string>
   <string name="incall_error_emergency_only">Net am Netzwierk registréiert.</string>
+  <string name="incall_error_out_of_service">Handynetzwierk net disponibel.</string>
   <string name="incall_error_no_phone_number_supplied">Uruff net geschéckt, keng gëlteg Nummer.</string>
   <string name="incall_error_call_failed">Uruff net ofgesat.</string>
   <string name="incall_status_dialed_mmi">MMI-Sequenz gëtt gestartet\u2026</string>
@@ -453,7 +483,7 @@
   <string name="ota_hfa_activation_title">Gëtt aktivéiert...</string>
   <string name="ota_hfa_activation_dialog_message">Däin Telefon aktivéiert däi mobilen Dateservice.\n\nDat ka bis zu 5 Minutten daueren.</string>
   <string name="ota_skip_activation_dialog_title">Aktivéierung iwwersprangen\?</string>
-  <string name="ota_skip_activation_dialog_message">Wann s du d\'Aktivéierung iwwerspréngs, kanns du keng Uriff ofsetzen oder dech mam mobilen Datennetzwierk connectéieren (mat WLAN-Netzwierker bleift et awer méiglech). Bis de däin Telefon aktivéiers hues, gëss de all Kéier gefrot en z\'aktivéiere wann s de en uschalts. </string>
+  <string name="ota_skip_activation_dialog_message">Wann s du d\'Aktivéierung iwwerspréngs, kanns du keng Uriff maachen oder dech mam mobilen Datennetzwierk connectéieren (mat WLAN-Netzwierker bleift et awer méiglech). Bis de däin Telefon aktivéiers hues, gëss de all Kéier gefrot en z\'aktivéiere wann s de en uschalts. </string>
   <string name="ota_skip_activation_dialog_skip_label">Iwwersprangen</string>
   <string name="ota_activate">Aktivéieren</string>
   <string name="ota_title_activate_success">Den Telefon ass aktivéiert.</string>
@@ -502,8 +532,15 @@
   <string name="voicemail_notification_vibrate_when_title" msgid="8731372580674292759">Vibréieren</string>
   <string name="voicemail_notification_vibarte_when_dialog_title" msgid="8995274609647451109">Vibréieren</string>
   <string name="voicemail_notification_ringtone_title">Toun</string>
+  <string name="ringtone_title">Schelltoun</string>
   <string name="dial_pad_autocomplete">Autovervollst. fir Wieltasten</string>
   <string name="preference_category_ringtone">Schelltoun a Vibratioun</string>
+  <string name="pstn_connection_service_label">Agebaute SIM-Kaarten</string>
+  <string name="enable_video_calling_title">Videouriff uschalten</string>
+  <string name="enable_video_calling_dialog_msg">Fir Videouriff ze aktivéieren, muss den erweiderte 4G-LTE-Modus an de Systemastellungen aktivéiert ginn.</string>
   <string name="enable_video_calling_dialog_settings">Netzwierkastellungen</string>
   <string name="enable_video_calling_dialog_close">Zoumaachen</string>
+  <string name="sim_label_emergency_calls">Noutriff</string>
+  <string name="sim_description_emergency_calls">Just Noutriff</string>
+  <string name="sim_description_default">SIM-Kaart, Schlitz: <xliff:g id="slot_id">%s</xliff:g></string>
 </resources>

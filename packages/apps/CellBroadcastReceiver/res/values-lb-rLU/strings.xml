@@ -17,6 +17,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_label">Zelliwwerdroungen</string>
   <string name="sms_cb_settings">Zelleniwwerdroungs-Astellungen</string>
+  <string name="cell_broadcast_settings_not_available">Zelliwwerdroungsastellungen net fir dëse Benotzer disponibel</string>
   <string name="button_dismiss">OK</string>
   <string name="no_cell_broadcasts">Et gi keng aktiv Warnunge an denger Regioun. Du kanns d\'Astellunge fir d\'Warnmessagen iwwer de Menüpunkt \"Astellungen\" änneren.</string>
   <string name="menu_preferences">Astellungen</string>

@@ -59,6 +59,7 @@
   <string name="sms_work_pager">SMS un den Aarbechtspager schécken</string>
   <string name="sms_assistant">Dem <xliff:g id="assistant">%s</xliff:g> eng SMS schécken</string>
   <string name="sms_mms">MMS schécken</string>
+  <string name="description_video_call">Videouruff maachen</string>
   <string name="clearFrequentsConfirmation_title">Dacks kontaktéiert eidel maachen?</string>
   <string name="clearFrequentsConfirmation">Du läschs d\'Lëscht mat den dacks Kontaktéierten an den Appe \"Leit\" an \"Telefon\", an du forcéiers d\'Email-Appen d\'Adressastellungen nei ze léieren.</string>
   <string name="clearFrequentsProgress_title">Dacks kontaktéiert gëtt eidel gemaach\u2026</string>
@@ -89,11 +90,15 @@
   <string name="nameLabelsGroup">Numm</string>
   <string name="nicknameLabelsGroup">Spëtznumm</string>
   <string name="full_name">Numm</string>
+  <string name="name_given">Virnumm</string>
+  <string name="name_family">Familljennumm</string>
   <string name="name_prefix">Nummprefix</string>
   <string name="name_middle">Zweete Virnumm</string>
   <string name="name_suffix">Nummsuffix</string>
   <string name="name_phonetic">Phoneteschen Numm</string>
+  <string name="name_phonetic_given">Phonetesche Virnumm</string>
   <string name="name_phonetic_middle">Phoneteschen zweete VIrnumm</string>
+  <string name="name_phonetic_family">Phonetesche Familljennumm</string>
   <string name="phoneLabelsGroup">Telefon</string>
   <string name="emailLabelsGroup">E-Mail</string>
   <string name="postalLabelsGroup">Adress</string>
@@ -106,6 +111,7 @@
   <string name="ghostData_company">Firma</string>
   <string name="ghostData_title">Titel</string>
   <string name="label_notes">Notten</string>
+  <string name="label_sip_address">SIP</string>
   <string name="websiteLabelsGroup">Websäit</string>
   <string name="groupsLabel">Gruppen</string>
   <string name="email_home">E-Mail un déi privat Adress schécken</string>
@@ -154,6 +160,7 @@
   <string name="listSingleContact">Eenzelne Kontakt</string>
   <string name="dialog_new_contact_account">Kontakt ënner dem Kont uleeën</string>
   <string name="import_from_sim">Vun der SIM-Kaart importéieren</string>
+  <string name="import_from_sim_number">Vun der SIM-Kaart #<xliff:g id="sim_number" example="2">%d</xliff:g> importéieren</string>
   <string name="import_from_sdcard" product="default">Aus dem Späicher importéieren</string>
   <string name="cancel_import_confirmation_message">Import vum Fichier <xliff:g id="filename" example="import.vcf">%s</xliff:g> ofbriechen?</string>
   <string name="cancel_export_confirmation_message">Export vum Fichier <xliff:g id="filename" example="import.vcf">%s</xliff:g> ofbriechen?</string>
@@ -214,6 +221,12 @@
   <string name="scanning_sdcard_failed_message" product="default">D\'SD-Kaart konnt net duerchsicht ginn. (Grond: \"<xliff:g id="fail_reason">%s</xliff:g>\")</string>
   <string name="progress_notifier_message"><xliff:g id="current_number">%s</xliff:g>/<xliff:g id="total_number">%s</xliff:g>: <xliff:g id="name" example="Joe Due">%s</xliff:g> gëtt importéiert</string>
   <string name="export_to_sdcard" product="default">An de Späicher exportéieren</string>
+  <string name="display_options_sort_list_by">Zortéieren no</string>
+  <string name="display_options_sort_by_given_name">Virnumm</string>
+  <string name="display_options_sort_by_family_name">Familljennumm</string>
+  <string name="display_options_view_names_as">Format vum Numm</string>
+  <string name="display_options_view_given_name_first">Virnumm fir d\'éischt</string>
+  <string name="display_options_view_family_name_first">Familljennumm fir d\'éischt</string>
   <string name="share_visible_contacts">Siichtbar Kontakter deelen</string>
   <string name="dialog_import_export">Kontakter importéieren/exportéieren</string>
   <string name="dialog_import">Kontakter importéieren</string>
@@ -229,8 +242,12 @@
   <string name="listTotalAllContactsZeroStarred">Keng Favoritten.</string>
   <string name="listTotalAllContactsZeroGroup">Keng Kontakter an der Grupp <xliff:g id="name" example="Friends">%s</xliff:g></string>
   <string name="menu_clear_frequents">Dacks kontaktéiert eidel maachen</string>
+  <string name="menu_select_sim">SIM-Kaart auswielen</string>
   <string name="menu_accounts">Konten</string>
   <string name="menu_import_export">Import/Export</string>
   <string name="contact_status_update_attribution">iwwer <xliff:g id="source" example="Google Talk">%1$s</xliff:g></string>
   <string name="contact_status_update_attribution_with_date"><xliff:g id="date" example="3 hours ago">%1$s</xliff:g> iwwer <xliff:g id="source" example="Google Talk">%2$s</xliff:g></string>
+  <string name="action_menu_back_from_search">Ophale mat Sichen</string>
+  <string name="description_clear_search">Sich läschen</string>
+  <string name="settings_contact_display_options_title">Uweisoptioune vun de Kontakter</string>
 </resources>

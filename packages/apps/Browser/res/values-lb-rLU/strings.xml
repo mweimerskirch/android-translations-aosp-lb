@@ -338,6 +338,7 @@
   <string name="permissions_prompt_allow">Erlaben</string>
   <string name="permissions_prompt_deny">Verweigeren</string>
   <string name="permissions_prompt_remember">Astellung verhalen</string>
+  <string name="resource_protected_media_id">Geschütze Medien-ID</string>
   <string name="resource_video_capture">Kamera</string>
   <string name="resource_audio_capture">Mikro</string>
   <string name="geolocation_permissions_prompt_message"><xliff:g id="website origin" example="maps.google.com">%s</xliff:g> wëll däi Standuert wëssen</string>
