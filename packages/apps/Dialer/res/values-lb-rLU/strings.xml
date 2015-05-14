@@ -84,7 +84,7 @@
   <string name="description_dial_button">wielen</string>
   <string name="description_delete_button">Récktast</string>
   <string name="description_digits_edittext">Nummer déi auszewielen ass</string>
-  <string name="action_menu_call_history_description">Urufffhistorique</string>
+  <string name="action_menu_call_history_description">Uruffhistorique</string>
   <string name="action_menu_overflow_description" msgid="2295659037509008453">Méi Optiounen</string>
   <string name="action_menu_dialpad_button">Wieltasten</string>
   <string name="menu_copy">Kopéieren</string>
