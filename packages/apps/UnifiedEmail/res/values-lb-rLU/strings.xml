@@ -168,7 +168,7 @@
   <string name="empty_spam_folder">Hurra, kee Spam do!</string>
   <string name="empty_trash_folder">Keen Offall hei. Merci fir d\'recycléieren!</string>
   <string name="empty_folder">Keng E-Mailen hei.</string>
-  <string name="getting_messages">Lueden d\'Messagen</string>
+  <string name="getting_messages">Messagë gi gelueden</string>
   <string name="undo">Réckgängeg maachen</string>
   <plurals name="conversation_unstarred">
     <item quantity="one">Stär bei <xliff:g id="count">%1$d</xliff:g> Konversatioun ewechgeholl.</item>
@@ -468,7 +468,7 @@
   <string name="preference_confirm_before_archive_title">Virum Archivéiere bestätegen</string>
   <string name="preference_confirm_before_send_title">Virum Schécke bestätegen</string>
   <string name="preferences_conversation_mode_title">Messagen automatesch upassen</string>
-  <string name="preferences_conversation_mode_summary">Messagë verklengeren, fir datt se op de Schierm passen</string>
+  <string name="preferences_conversation_mode_summary">Messagë verklengeren, fir datt s\'op de Schierm passen</string>
   <string name="preferences_disable_snap_headers_title">Messagenaktiounen</string>
   <string-array name="prefSummaries_snapHeader">
     <item>Messagenaktiounen ëmmer uewen um Schierm uweisen</item>
